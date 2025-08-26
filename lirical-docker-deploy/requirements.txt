@@ -1,0 +1,25 @@
+# Core dependencies
+Flask==2.3.3
+flask-cors==4.0.0
+
+# For subprocess management
+psutil==5.9.5
+
+# JSON and data handling
+pandas==2.0.3
+numpy==1.24.3
+
+# Async support
+asyncio==3.4.3
+aiofiles==23.2.1
+
+# Utilities
+python-dotenv==1.0.0
+
+# Development and testing
+pytest==7.4.0
+pytest-asyncio==0.21.1
+requests==2.31.0
+
+# Logging
+python-json-logger==2.0.7

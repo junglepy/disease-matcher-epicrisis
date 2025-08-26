@@ -1,0 +1,3462 @@
+{
+  "metrics": {
+    "total_cases": 30,
+    "successful_cases": 30,
+    "top1_accuracy": 66.66666666666666,
+    "top5_accuracy": 93.33333333333333,
+    "top10_accuracy": 96.66666666666667,
+    "hit_rate_10": 96.66666666666667,
+    "top1_count": 20,
+    "top5_count": 28,
+    "top10_count": 29,
+    "hit_count": 29
+  },
+  "results": [
+    {
+      "test_id": "test_0000",
+      "expected_omim": "209850",
+      "hpo_codes": [
+        "HP:0002353",
+        "HP:0000750",
+        "HP:0000717",
+        "HP:0001250",
+        "HP:0000723",
+        "HP:0000728"
+      ],
+      "predictions": [
+        {
+          "composite_lr": 131172955664.73186,
+          "disease_id": "OMIM:608049",
+          "disease_name": "OMIM disease 608049",
+          "omim_id": "608049",
+          "phenotype_score": 0.9999999359014256,
+          "post_test_probability": 0.9999999359014256,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 1
+        },
+        {
+          "composite_lr": 131172955664.73186,
+          "disease_id": "OMIM:607373",
+          "disease_name": "OMIM disease 607373",
+          "omim_id": "607373",
+          "phenotype_score": 0.9999999359014256,
+          "post_test_probability": 0.9999999359014256,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 2
+        },
+        {
+          "composite_lr": 131172955664.73186,
+          "disease_id": "OMIM:608636",
+          "disease_name": "OMIM disease 608636",
+          "omim_id": "608636",
+          "phenotype_score": 0.9999999359014256,
+          "post_test_probability": 0.9999999359014256,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 3
+        },
+        {
+          "composite_lr": 131172955664.73186,
+          "disease_id": "OMIM:209850",
+          "disease_name": "Autism spectrum disorder",
+          "omim_id": "209850",
+          "phenotype_score": 0.9999999359014256,
+          "post_test_probability": 0.9999999359014256,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 4
+        },
+        {
+          "composite_lr": 36053167.520239964,
+          "disease_id": "OMIM:610042",
+          "disease_name": "OMIM disease 610042",
+          "omim_id": "610042",
+          "phenotype_score": 0.9997668432430169,
+          "post_test_probability": 0.9997668432430169,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 5
+        },
+        {
+          "composite_lr": 10167895.080792012,
+          "disease_id": "OMIM:300496",
+          "disease_name": "OMIM disease 300496",
+          "omim_id": "300496",
+          "phenotype_score": 0.9991737667467993,
+          "post_test_probability": 0.9991737667467993,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 6
+        },
+        {
+          "composite_lr": 5083947.540396005,
+          "disease_id": "OMIM:300425",
+          "disease_name": "OMIM disease 300425",
+          "omim_id": "300425",
+          "phenotype_score": 0.998348897689232,
+          "post_test_probability": 0.998348897689232,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 7
+        },
+        {
+          "composite_lr": 1545211.8247022468,
+          "disease_id": "OMIM:300912",
+          "disease_name": "OMIM disease 300912",
+          "omim_id": "300912",
+          "phenotype_score": 0.9945881226112627,
+          "post_test_probability": 0.9945881226112627,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 8
+        },
+        {
+          "composite_lr": 1027612.3924901077,
+          "disease_id": "OMIM:619475",
+          "disease_name": "OMIM disease 619475",
+          "omim_id": "619475",
+          "phenotype_score": 0.9918843296319766,
+          "post_test_probability": 0.9918843296319766,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 9
+        },
+        {
+          "composite_lr": 423662.2845112341,
+          "disease_id": "OMIM:300495",
+          "disease_name": "OMIM disease 300495",
+          "omim_id": "300495",
+          "phenotype_score": 0.980540203060918,
+          "post_test_probability": 0.980540203060918,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 10
+        }
+      ],
+      "error": null,
+      "processing_time": 2904
+    },
+    {
+      "test_id": "test_0001",
+      "expected_omim": "100800",
+      "hpo_codes": [
+        "HP:0005733",
+        "HP:0001377",
+        "HP:0003015",
+        "HP:0002980",
+        "HP:0001355",
+        "HP:0002089"
+      ],
+      "predictions": [
+        {
+          "composite_lr": 1347662196771098.8,
+          "disease_id": "OMIM:100800",
+          "disease_name": "Achondroplasia",
+          "omim_id": "100800",
+          "phenotype_score": 0.9999999999937611,
+          "post_test_probability": 0.9999999999937611,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 1
+        },
+        {
+          "composite_lr": 26519.956592256436,
+          "disease_id": "OMIM:601559",
+          "disease_name": "OMIM disease 601559",
+          "omim_id": "601559",
+          "phenotype_score": 0.7592759262113815,
+          "post_test_probability": 0.7592759262113815,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 2
+        },
+        {
+          "composite_lr": 472.06742214091634,
+          "disease_id": "OMIM:616007",
+          "disease_name": "OMIM disease 616007",
+          "omim_id": "616007",
+          "phenotype_score": 0.053160342112256675,
+          "post_test_probability": 0.053160342112256675,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 3
+        },
+        {
+          "composite_lr": 78.70982673854334,
+          "disease_id": "OMIM:307800",
+          "disease_name": "OMIM disease 307800",
+          "omim_id": "307800",
+          "phenotype_score": 0.009274480728745697,
+          "post_test_probability": 0.009274480728745697,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 4
+        },
+        {
+          "composite_lr": 56.428555404685405,
+          "disease_id": "OMIM:187600",
+          "disease_name": "OMIM disease 187600",
+          "omim_id": "187600",
+          "phenotype_score": 0.00666655227051976,
+          "post_test_probability": 0.00666655227051976,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 5
+        },
+        {
+          "composite_lr": 41.17680886880911,
+          "disease_id": "OMIM:618019",
+          "disease_name": "OMIM disease 618019",
+          "omim_id": "618019",
+          "phenotype_score": 0.004873469901302958,
+          "post_test_probability": 0.004873469901302958,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 6
+        },
+        {
+          "composite_lr": 5.365672566119112,
+          "disease_id": "OMIM:269300",
+          "disease_name": "OMIM disease 269300",
+          "omim_id": "269300",
+          "phenotype_score": 0.0006377557775261366,
+          "post_test_probability": 0.0006377557775261366,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 7
+        },
+        {
+          "composite_lr": 5.252264651561369,
+          "disease_id": "OMIM:602111",
+          "disease_name": "OMIM disease 602111",
+          "omim_id": "602111",
+          "phenotype_score": 0.0006242846982764154,
+          "post_test_probability": 0.0006242846982764154,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 8
+        },
+        {
+          "composite_lr": 2.4884160859021733,
+          "disease_id": "OMIM:184260",
+          "disease_name": "OMIM disease 184260",
+          "omim_id": "184260",
+          "phenotype_score": 0.00029587058001801994,
+          "post_test_probability": 0.00029587058001801994,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 9
+        },
+        {
+          "composite_lr": 1.9792260098866363,
+          "disease_id": "OMIM:250250",
+          "disease_name": "OMIM disease 250250",
+          "omim_id": "250250",
+          "phenotype_score": 0.0002353425563484632,
+          "post_test_probability": 0.0002353425563484632,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 10
+        }
+      ],
+      "error": null,
+      "processing_time": 2753
+    },
+    {
+      "test_id": "test_0002",
+      "expected_omim": "102900",
+      "hpo_codes": [
+        "HP:0030271",
+        "HP:0001901"
+      ],
+      "predictions": [
+        {
+          "composite_lr": 2049602.347826087,
+          "disease_id": "OMIM:102900",
+          "disease_name": "Ehlers-Danlos syndrome",
+          "omim_id": "102900",
+          "phenotype_score": 0.9959145006200374,
+          "post_test_probability": 0.9959145006200374,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 1
+        },
+        {
+          "composite_lr": 880.0494410483687,
+          "disease_id": "OMIM:611783",
+          "disease_name": "OMIM disease 611783",
+          "omim_id": "611783",
+          "phenotype_score": 0.09475072744111437,
+          "post_test_probability": 0.09475072744111437,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 2
+        },
+        {
+          "composite_lr": 880.0494410483687,
+          "disease_id": "OMIM:606812",
+          "disease_name": "OMIM disease 606812",
+          "omim_id": "606812",
+          "phenotype_score": 0.09475072744111437,
+          "post_test_probability": 0.09475072744111437,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 3
+        },
+        {
+          "composite_lr": 880.0494410483687,
+          "disease_id": "OMIM:250800",
+          "disease_name": "OMIM disease 250800",
+          "omim_id": "250800",
+          "phenotype_score": 0.09475072744111437,
+          "post_test_probability": 0.09475072744111437,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 4
+        },
+        {
+          "composite_lr": 880.0494410483687,
+          "disease_id": "OMIM:617907",
+          "disease_name": "OMIM disease 617907",
+          "omim_id": "617907",
+          "phenotype_score": 0.09475072744111437,
+          "post_test_probability": 0.09475072744111437,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 5
+        },
+        {
+          "composite_lr": 880.0494410483687,
+          "disease_id": "OMIM:617981",
+          "disease_name": "OMIM disease 617981",
+          "omim_id": "617981",
+          "phenotype_score": 0.09475072744111437,
+          "post_test_probability": 0.09475072744111437,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 6
+        },
+        {
+          "composite_lr": 880.0494410483687,
+          "disease_id": "OMIM:617980",
+          "disease_name": "OMIM disease 617980",
+          "omim_id": "617980",
+          "phenotype_score": 0.09475072744111437,
+          "post_test_probability": 0.09475072744111437,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 7
+        },
+        {
+          "composite_lr": 880.0494410483687,
+          "disease_id": "OMIM:187300",
+          "disease_name": "OMIM disease 187300",
+          "omim_id": "187300",
+          "phenotype_score": 0.09475072744111437,
+          "post_test_probability": 0.09475072744111437,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 8
+        },
+        {
+          "composite_lr": 880.0494410483687,
+          "disease_id": "OMIM:613280",
+          "disease_name": "OMIM disease 613280",
+          "omim_id": "613280",
+          "phenotype_score": 0.09475072744111437,
+          "post_test_probability": 0.09475072744111437,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 9
+        },
+        {
+          "composite_lr": 880.0494410483687,
+          "disease_id": "OMIM:193300",
+          "disease_name": "OMIM disease 193300",
+          "omim_id": "193300",
+          "phenotype_score": 0.09475072744111437,
+          "post_test_probability": 0.09475072744111437,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 10
+        }
+      ],
+      "error": null,
+      "processing_time": 2088
+    },
+    {
+      "test_id": "test_0003",
+      "expected_omim": "107250",
+      "hpo_codes": [
+        "HP:0007759",
+        "HP:0000006",
+        "HP:0007906",
+        "HP:0001115"
+      ],
+      "predictions": [
+        {
+          "composite_lr": 829932.003195007,
+          "disease_id": "OMIM:107250",
+          "disease_name": "Albinism",
+          "omim_id": "107250",
+          "phenotype_score": 0.9899706563351908,
+          "post_test_probability": 0.9899706563351908,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 1
+        },
+        {
+          "composite_lr": 248.4938697454552,
+          "disease_id": "OMIM:610256",
+          "disease_name": "OMIM disease 610256",
+          "omim_id": "610256",
+          "phenotype_score": 0.028706064312474605,
+          "post_test_probability": 0.028706064312474605,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 2
+        },
+        {
+          "composite_lr": 121.7112843497241,
+          "disease_id": "OMIM:269400",
+          "disease_name": "OMIM disease 269400",
+          "omim_id": "269400",
+          "phenotype_score": 0.01426909777978528,
+          "post_test_probability": 0.01426909777978528,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 3
+        },
+        {
+          "composite_lr": 80.95231311616774,
+          "disease_id": "OMIM:614195",
+          "disease_name": "OMIM disease 614195",
+          "omim_id": "614195",
+          "phenotype_score": 0.009536196002784632,
+          "post_test_probability": 0.009536196002784632,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 4
+        },
+        {
+          "composite_lr": 52.747756083579844,
+          "disease_id": "OMIM:612109",
+          "disease_name": "OMIM disease 612109",
+          "omim_id": "612109",
+          "phenotype_score": 0.006234408305773249,
+          "post_test_probability": 0.006234408305773249,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 5
+        },
+        {
+          "composite_lr": 47.332167076409455,
+          "disease_id": "OMIM:612469",
+          "disease_name": "OMIM disease 612469",
+          "omim_id": "612469",
+          "phenotype_score": 0.005597907467279958,
+          "post_test_probability": 0.005597907467279958,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 6
+        },
+        {
+          "composite_lr": 14.014398385181444,
+          "disease_id": "OMIM:177650",
+          "disease_name": "OMIM disease 177650",
+          "omim_id": "177650",
+          "phenotype_score": 0.0016640197608625007,
+          "post_test_probability": 0.0016640197608625007,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 7
+        },
+        {
+          "composite_lr": 7.1906570255053195,
+          "disease_id": "OMIM:610023",
+          "disease_name": "OMIM disease 610023",
+          "omim_id": "610023",
+          "phenotype_score": 0.0008544853371209277,
+          "post_test_probability": 0.0008544853371209277,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 8
+        },
+        {
+          "composite_lr": 0.9342932535228708,
+          "disease_id": "OMIM:613195",
+          "disease_name": "OMIM disease 613195",
+          "omim_id": "613195",
+          "phenotype_score": 0.00011110721298803027,
+          "post_test_probability": 0.00011110721298803027,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 9
+        },
+        {
+          "composite_lr": 0.9049813433592263,
+          "disease_id": "OMIM:604278",
+          "disease_name": "OMIM disease 604278",
+          "omim_id": "604278",
+          "phenotype_score": 0.00010762178254684615,
+          "post_test_probability": 0.00010762178254684615,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 10
+        }
+      ],
+      "error": null,
+      "processing_time": 2362
+    },
+    {
+      "test_id": "test_0004",
+      "expected_omim": "108420",
+      "hpo_codes": [
+        "HP:0000798",
+        "HP:0000027",
+        "HP:0003251",
+        "HP:0000007"
+      ],
+      "predictions": [
+        {
+          "composite_lr": 27088.102328717272,
+          "disease_id": "OMIM:619108",
+          "disease_name": "OMIM disease 619108",
+          "omim_id": "619108",
+          "phenotype_score": 0.7631289226592717,
+          "post_test_probability": 0.7631289226592717,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 1
+        },
+        {
+          "composite_lr": 27088.102328717272,
+          "disease_id": "OMIM:108420",
+          "disease_name": "OMIM disease 108420",
+          "omim_id": "108420",
+          "phenotype_score": 0.7631289226592717,
+          "post_test_probability": 0.7631289226592717,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 2
+        },
+        {
+          "composite_lr": 13544.051164358636,
+          "disease_id": "OMIM:615703",
+          "disease_name": "OMIM disease 615703",
+          "omim_id": "615703",
+          "phenotype_score": 0.6169833999999402,
+          "post_test_probability": 0.6169833999999402,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 3
+        },
+        {
+          "composite_lr": 6019.578654065334,
+          "disease_id": "OMIM:617960",
+          "disease_name": "OMIM disease 617960",
+          "omim_id": "617960",
+          "phenotype_score": 0.4172272283796676,
+          "post_test_probability": 0.4172272283796676,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 4
+        },
+        {
+          "composite_lr": 6019.578654065334,
+          "disease_id": "OMIM:619828",
+          "disease_name": "OMIM disease 619828",
+          "omim_id": "619828",
+          "phenotype_score": 0.4172272283796676,
+          "post_test_probability": 0.4172272283796676,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 5
+        },
+        {
+          "composite_lr": 5079.0191866344885,
+          "disease_id": "OMIM:617706",
+          "disease_name": "OMIM disease 617706",
+          "omim_id": "617706",
+          "phenotype_score": 0.37658574636475267,
+          "post_test_probability": 0.37658574636475267,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 6
+        },
+        {
+          "composite_lr": 4334.096501760901,
+          "disease_id": "OMIM:618110",
+          "disease_name": "OMIM disease 618110",
+          "omim_id": "618110",
+          "phenotype_score": 0.3401399841197207,
+          "post_test_probability": 0.3401399841197207,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 7
+        },
+        {
+          "composite_lr": 3762.236456968739,
+          "disease_id": "OMIM:620103",
+          "disease_name": "OMIM disease 620103",
+          "omim_id": "620103",
+          "phenotype_score": 0.3091342119991813,
+          "post_test_probability": 0.3091342119991813,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 8
+        },
+        {
+          "composite_lr": 1842.7485459168074,
+          "disease_id": "OMIM:612997",
+          "disease_name": "OMIM disease 612997",
+          "omim_id": "612997",
+          "phenotype_score": 0.17976721774634025,
+          "post_test_probability": 0.17976721774634025,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 9
+        },
+        {
+          "composite_lr": 1842.7485459168074,
+          "disease_id": "OMIM:615081",
+          "disease_name": "OMIM disease 615081",
+          "omim_id": "615081",
+          "phenotype_score": 0.17976721774634025,
+          "post_test_probability": 0.17976721774634025,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 10
+        }
+      ],
+      "error": null,
+      "processing_time": 2503
+    },
+    {
+      "test_id": "test_0005",
+      "expected_omim": "110050",
+      "hpo_codes": [
+        "HP:0000298",
+        "HP:0001249",
+        "HP:0000006",
+        "HP:0010628"
+      ],
+      "predictions": [
+        {
+          "composite_lr": 1553.138690963847,
+          "disease_id": "OMIM:110050",
+          "disease_name": "OMIM disease 110050",
+          "omim_id": "110050",
+          "phenotype_score": 0.15591979382565593,
+          "post_test_probability": 0.15591979382565593,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 1
+        },
+        {
+          "composite_lr": 1553.138690963847,
+          "disease_id": "OMIM:157900",
+          "disease_name": "OMIM disease 157900",
+          "omim_id": "157900",
+          "phenotype_score": 0.15591979382565593,
+          "post_test_probability": 0.15591979382565593,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 2
+        },
+        {
+          "composite_lr": 73.95898528399272,
+          "disease_id": "OMIM:255800",
+          "disease_name": "OMIM disease 255800",
+          "omim_id": "255800",
+          "phenotype_score": 0.008719564125729669,
+          "post_test_probability": 0.008719564125729669,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 3
+        },
+        {
+          "composite_lr": 42.2129240184134,
+          "disease_id": "OMIM:617519",
+          "disease_name": "OMIM disease 617519",
+          "omim_id": "617519",
+          "phenotype_score": 0.004995486433061319,
+          "post_test_probability": 0.004995486433061319,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 4
+        },
+        {
+          "composite_lr": 9.628362540779401,
+          "disease_id": "OMIM:161800",
+          "disease_name": "OMIM disease 161800",
+          "omim_id": "161800",
+          "phenotype_score": 0.001143833170828318,
+          "post_test_probability": 0.001143833170828318,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 5
+        },
+        {
+          "composite_lr": 4.114788016482896,
+          "disease_id": "OMIM:300868",
+          "disease_name": "OMIM disease 300868",
+          "omim_id": "300868",
+          "phenotype_score": 0.0004891502458269632,
+          "post_test_probability": 0.0004891502458269632,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 6
+        },
+        {
+          "composite_lr": 3.170853271023876,
+          "disease_id": "OMIM:164300",
+          "disease_name": "OMIM disease 164300",
+          "omim_id": "164300",
+          "phenotype_score": 0.00037698119873415264,
+          "post_test_probability": 0.00037698119873415264,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 7
+        },
+        {
+          "composite_lr": 2.57174251030181,
+          "disease_id": "OMIM:618076",
+          "disease_name": "OMIM disease 618076",
+          "omim_id": "618076",
+          "phenotype_score": 0.00030577499235910714,
+          "post_test_probability": 0.00030577499235910714,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 8
+        },
+        {
+          "composite_lr": 2.257345447516774,
+          "disease_id": "OMIM:608443",
+          "disease_name": "OMIM disease 608443",
+          "omim_id": "608443",
+          "phenotype_score": 0.0002684038495847785,
+          "post_test_probability": 0.0002684038495847785,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 9
+        },
+        {
+          "composite_lr": 2.057394008241448,
+          "disease_id": "OMIM:620747",
+          "disease_name": "OMIM disease 620747",
+          "omim_id": "620747",
+          "phenotype_score": 0.00024463495453755656,
+          "post_test_probability": 0.00024463495453755656,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 10
+        }
+      ],
+      "error": null,
+      "processing_time": 2383
+    },
+    {
+      "test_id": "test_0006",
+      "expected_omim": "113620",
+      "hpo_codes": [
+        "HP:0002021",
+        "HP:0000486",
+        "HP:0000164",
+        "HP:0001177",
+        "HP:0008606",
+        "HP:0000365"
+      ],
+      "predictions": [
+        {
+          "composite_lr": 1690949570171.6997,
+          "disease_id": "OMIM:113620",
+          "disease_name": "OMIM disease 113620",
+          "omim_id": "113620",
+          "phenotype_score": 0.9999999950276459,
+          "post_test_probability": 0.9999999950276459,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 1
+        },
+        {
+          "composite_lr": 24980612.766902972,
+          "disease_id": "OMIM:101200",
+          "disease_name": "OMIM disease 101200",
+          "omim_id": "101200",
+          "phenotype_score": 0.9996635322336785,
+          "post_test_probability": 0.9996635322336785,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 2
+        },
+        {
+          "composite_lr": 625254.0493653456,
+          "disease_id": "OMIM:270400",
+          "disease_name": "OMIM disease 270400",
+          "omim_id": "270400",
+          "phenotype_score": 0.9867310974226385,
+          "post_test_probability": 0.9867310974226385,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 3
+        },
+        {
+          "composite_lr": 301316.30747419887,
+          "disease_id": "OMIM:305450",
+          "disease_name": "OMIM disease 305450",
+          "omim_id": "305450",
+          "phenotype_score": 0.9728532769398462,
+          "post_test_probability": 0.9728532769398462,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 4
+        },
+        {
+          "composite_lr": 23677.731347816858,
+          "disease_id": "OMIM:305600",
+          "disease_name": "OMIM disease 305600",
+          "omim_id": "305600",
+          "phenotype_score": 0.7379520538629677,
+          "post_test_probability": 0.7379520538629677,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 5
+        },
+        {
+          "composite_lr": 7377.573065940094,
+          "disease_id": "OMIM:194190",
+          "disease_name": "OMIM disease 194190",
+          "omim_id": "194190",
+          "phenotype_score": 0.4673617508292044,
+          "post_test_probability": 0.4673617508292044,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 6
+        },
+        {
+          "composite_lr": 203.1448457894259,
+          "disease_id": "OMIM:122470",
+          "disease_name": "OMIM disease 122470",
+          "omim_id": "122470",
+          "phenotype_score": 0.023590921930520915,
+          "post_test_probability": 0.023590921930520915,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 7
+        },
+        {
+          "composite_lr": 180.0353170537301,
+          "disease_id": "OMIM:123450",
+          "disease_name": "OMIM disease 123450",
+          "omim_id": "123450",
+          "phenotype_score": 0.02096350450448476,
+          "post_test_probability": 0.02096350450448476,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 8
+        },
+        {
+          "composite_lr": 93.84837818743057,
+          "disease_id": "OMIM:135900",
+          "disease_name": "OMIM disease 135900",
+          "omim_id": "135900",
+          "phenotype_score": 0.01103858525967253,
+          "post_test_probability": 0.01103858525967253,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 9
+        },
+        {
+          "composite_lr": 76.25277935980915,
+          "disease_id": "OMIM:200990",
+          "disease_name": "OMIM disease 200990",
+          "omim_id": "200990",
+          "phenotype_score": 0.008987565710596722,
+          "post_test_probability": 0.008987565710596722,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 10
+        }
+      ],
+      "error": null,
+      "processing_time": 2705
+    },
+    {
+      "test_id": "test_0007",
+      "expected_omim": "115470",
+      "hpo_codes": [
+        "HP:0000316",
+        "HP:0000384",
+        "HP:0000612",
+        "HP:0004467",
+        "HP:0002023",
+        "HP:0003577"
+      ],
+      "predictions": [
+        {
+          "composite_lr": 94834679.11595657,
+          "disease_id": "OMIM:115470",
+          "disease_name": "OMIM disease 115470",
+          "omim_id": "115470",
+          "phenotype_score": 0.9999113483095534,
+          "post_test_probability": 0.9999113483095534,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 1
+        },
+        {
+          "composite_lr": 477926.46758879937,
+          "disease_id": "DECIPHER:42",
+          "disease_name": "Disease DECIPHER:42",
+          "phenotype_score": 0.982711486517322,
+          "post_test_probability": 0.982711486517322,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 2
+        },
+        {
+          "composite_lr": 120545.38390991627,
+          "disease_id": "OMIM:200990",
+          "disease_name": "OMIM disease 200990",
+          "omim_id": "200990",
+          "phenotype_score": 0.9347981437550051,
+          "post_test_probability": 0.9347981437550051,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 3
+        },
+        {
+          "composite_lr": 24786.829153090617,
+          "disease_id": "OMIM:312870",
+          "disease_name": "OMIM disease 312870",
+          "omim_id": "312870",
+          "phenotype_score": 0.7467075380559032,
+          "post_test_probability": 0.7467075380559032,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 4
+        },
+        {
+          "composite_lr": 13207.497774202204,
+          "disease_id": "OMIM:107480",
+          "disease_name": "OMIM disease 107480",
+          "omim_id": "107480",
+          "phenotype_score": 0.6110198299465105,
+          "post_test_probability": 0.6110198299465105,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 5
+        },
+        {
+          "composite_lr": 1312.1663700401457,
+          "disease_id": "OMIM:194190",
+          "disease_name": "OMIM disease 194190",
+          "omim_id": "194190",
+          "phenotype_score": 0.13499422953135382,
+          "post_test_probability": 0.13499422953135382,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 6
+        },
+        {
+          "composite_lr": 1207.0837666119048,
+          "disease_id": "OMIM:109400",
+          "disease_name": "OMIM disease 109400",
+          "omim_id": "109400",
+          "phenotype_score": 0.1255406396773648,
+          "post_test_probability": 0.1255406396773648,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 7
+        },
+        {
+          "composite_lr": 838.1673265952735,
+          "disease_id": "OMIM:612582",
+          "disease_name": "OMIM disease 612582",
+          "omim_id": "612582",
+          "phenotype_score": 0.09065024425681822,
+          "post_test_probability": 0.09065024425681822,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 8
+        },
+        {
+          "composite_lr": 751.834977811257,
+          "disease_id": "OMIM:261540",
+          "disease_name": "OMIM disease 261540",
+          "omim_id": "261540",
+          "phenotype_score": 0.08207953305190527,
+          "post_test_probability": 0.08207953305190527,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 9
+        },
+        {
+          "composite_lr": 311.54809602099095,
+          "disease_id": "OMIM:123790",
+          "disease_name": "OMIM disease 123790",
+          "omim_id": "123790",
+          "phenotype_score": 0.035729844321079014,
+          "post_test_probability": 0.035729844321079014,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 10
+        }
+      ],
+      "error": null,
+      "processing_time": 2629
+    },
+    {
+      "test_id": "test_0008",
+      "expected_omim": "120100",
+      "hpo_codes": [
+        "HP:0001025",
+        "HP:0025143",
+        "HP:0012378",
+        "HP:0000509",
+        "HP:0003593",
+        "HP:0032154"
+      ],
+      "predictions": [
+        {
+          "composite_lr": 465327144341.7925,
+          "disease_id": "OMIM:120100",
+          "disease_name": "OMIM disease 120100",
+          "omim_id": "120100",
+          "phenotype_score": 0.999999981930992,
+          "post_test_probability": 0.999999981930992,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 1
+        },
+        {
+          "composite_lr": 2821994.3912645285,
+          "disease_id": "OMIM:620376",
+          "disease_name": "OMIM disease 620376",
+          "omim_id": "620376",
+          "phenotype_score": 0.9970293976482109,
+          "post_test_probability": 0.9970293976482109,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 2
+        },
+        {
+          "composite_lr": 211649.57934483967,
+          "disease_id": "OMIM:191900",
+          "disease_name": "OMIM disease 191900",
+          "omim_id": "191900",
+          "phenotype_score": 0.9617918181912548,
+          "post_test_probability": 0.9617918181912548,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 3
+        },
+        {
+          "composite_lr": 78.63713719777782,
+          "disease_id": "OMIM:608710",
+          "disease_name": "OMIM disease 608710",
+          "omim_id": "608710",
+          "phenotype_score": 0.009265994990301092,
+          "post_test_probability": 0.009265994990301092,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 4
+        },
+        {
+          "composite_lr": 46.899326754173046,
+          "disease_id": "OMIM:618131",
+          "disease_name": "OMIM disease 618131",
+          "omim_id": "618131",
+          "phenotype_score": 0.005547000022314594,
+          "post_test_probability": 0.005547000022314594,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 5
+        },
+        {
+          "composite_lr": 3.6308771031653673,
+          "disease_id": "OMIM:615767",
+          "disease_name": "OMIM disease 615767",
+          "omim_id": "615767",
+          "phenotype_score": 0.00043164959996625353,
+          "post_test_probability": 0.00043164959996625353,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 6
+        },
+        {
+          "composite_lr": 0.30820037506950543,
+          "disease_id": "OMIM:613075",
+          "disease_name": "OMIM disease 613075",
+          "omim_id": "613075",
+          "phenotype_score": 3.6654267151596274e-05,
+          "post_test_probability": 3.6654267151596274e-05,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 7
+        },
+        {
+          "composite_lr": 0.30422761133133835,
+          "disease_id": "OMIM:616050",
+          "disease_name": "OMIM disease 616050",
+          "omim_id": "616050",
+          "phenotype_score": 3.618180349996264e-05,
+          "post_test_probability": 3.618180349996264e-05,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 8
+        },
+        {
+          "composite_lr": 0.22149640383665395,
+          "disease_id": "OMIM:611762",
+          "disease_name": "OMIM disease 611762",
+          "omim_id": "611762",
+          "phenotype_score": 2.634283646445174e-05,
+          "post_test_probability": 2.634283646445174e-05,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 9
+        },
+        {
+          "composite_lr": 0.21827585977227892,
+          "disease_id": "OMIM:260920",
+          "disease_name": "OMIM disease 260920",
+          "omim_id": "260920",
+          "phenotype_score": 2.5959823188576705e-05,
+          "post_test_probability": 2.5959823188576705e-05,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 10
+        }
+      ],
+      "error": null,
+      "processing_time": 2569
+    },
+    {
+      "test_id": "test_0009",
+      "expected_omim": "120433",
+      "hpo_codes": [
+        "HP:0000612",
+        "HP:0001249",
+        "HP:0003577",
+        "HP:0000568",
+        "HP:0000006",
+        "HP:0000365"
+      ],
+      "predictions": [
+        {
+          "composite_lr": 33.878196500281824,
+          "disease_id": "OMIM:244300",
+          "disease_name": "OMIM disease 244300",
+          "omim_id": "244300",
+          "phenotype_score": 0.0040131112664390945,
+          "post_test_probability": 0.0040131112664390945,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 1
+        },
+        {
+          "composite_lr": 33.878196500281824,
+          "disease_id": "OMIM:309800",
+          "disease_name": "OMIM disease 309800",
+          "omim_id": "309800",
+          "phenotype_score": 0.0040131112664390945,
+          "post_test_probability": 0.0040131112664390945,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 2
+        },
+        {
+          "composite_lr": 33.878196500281824,
+          "disease_id": "OMIM:613884",
+          "disease_name": "OMIM disease 613884",
+          "omim_id": "613884",
+          "phenotype_score": 0.0040131112664390945,
+          "post_test_probability": 0.0040131112664390945,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 3
+        },
+        {
+          "composite_lr": 33.878196500281824,
+          "disease_id": "OMIM:305600",
+          "disease_name": "OMIM disease 305600",
+          "omim_id": "305600",
+          "phenotype_score": 0.0040131112664390945,
+          "post_test_probability": 0.0040131112664390945,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 4
+        },
+        {
+          "composite_lr": 27.102557604085032,
+          "disease_id": "OMIM:214800",
+          "disease_name": "OMIM disease 214800",
+          "omim_id": "214800",
+          "phenotype_score": 0.0032130679406680825,
+          "post_test_probability": 0.0032130679406680825,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 5
+        },
+        {
+          "composite_lr": 18.32629810109208,
+          "disease_id": "OMIM:120433",
+          "disease_name": "OMIM disease 120433",
+          "omim_id": "120433",
+          "phenotype_score": 0.002174885881789551,
+          "post_test_probability": 0.002174885881789551,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 6
+        },
+        {
+          "composite_lr": 9.410610195058771,
+          "disease_id": "OMIM:113620",
+          "disease_name": "OMIM disease 113620",
+          "omim_id": "113620",
+          "phenotype_score": 0.0011179934817081114,
+          "post_test_probability": 0.0011179934817081114,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 7
+        },
+        {
+          "composite_lr": 6.775639401021257,
+          "disease_id": "OMIM:243310",
+          "disease_name": "OMIM disease 243310",
+          "omim_id": "243310",
+          "phenotype_score": 0.0008052073746678717,
+          "post_test_probability": 0.0008052073746678717,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 8
+        },
+        {
+          "composite_lr": 5.646366083380305,
+          "disease_id": "OMIM:136760",
+          "disease_name": "OMIM disease 136760",
+          "omim_id": "136760",
+          "phenotype_score": 0.0006710961974990558,
+          "post_test_probability": 0.0006710961974990558,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 9
+        },
+        {
+          "composite_lr": 3.2264951291551798,
+          "disease_id": "OMIM:300166",
+          "disease_name": "OMIM disease 300166",
+          "omim_id": "300166",
+          "phenotype_score": 0.0003835938945436324,
+          "post_test_probability": 0.0003835938945436324,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 10
+        }
+      ],
+      "error": null,
+      "processing_time": 2451
+    },
+    {
+      "test_id": "test_0010",
+      "expected_omim": "124000",
+      "hpo_codes": [
+        "HP:0000365",
+        "HP:0001252",
+        "HP:0001970",
+        "HP:0001290",
+        "HP:0001251",
+        "HP:0001250"
+      ],
+      "predictions": [
+        {
+          "composite_lr": 9092101.24565369,
+          "disease_id": "OMIM:124000",
+          "disease_name": "OMIM disease 124000",
+          "omim_id": "124000",
+          "phenotype_score": 0.999076095658711,
+          "post_test_probability": 0.999076095658711,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 1
+        },
+        {
+          "composite_lr": 23381.176408960324,
+          "disease_id": "OMIM:256810",
+          "disease_name": "OMIM disease 256810",
+          "omim_id": "256810",
+          "phenotype_score": 0.7355074604062387,
+          "post_test_probability": 0.7355074604062387,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 2
+        },
+        {
+          "composite_lr": 8696.571706972241,
+          "disease_id": "OMIM:220110",
+          "disease_name": "OMIM disease 220110",
+          "omim_id": "220110",
+          "phenotype_score": 0.5084355139642174,
+          "post_test_probability": 0.5084355139642174,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 3
+        },
+        {
+          "composite_lr": 4919.866688963876,
+          "disease_id": "OMIM:617595",
+          "disease_name": "OMIM disease 617595",
+          "omim_id": "617595",
+          "phenotype_score": 0.3691413490080724,
+          "post_test_probability": 0.3691413490080724,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 4
+        },
+        {
+          "composite_lr": 3976.390587782848,
+          "disease_id": "OMIM:616084",
+          "disease_name": "OMIM disease 616084",
+          "omim_id": "616084",
+          "phenotype_score": 0.32108084443860657,
+          "post_test_probability": 0.32108084443860657,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 5
+        },
+        {
+          "composite_lr": 1712.120876536432,
+          "disease_id": "OMIM:601539",
+          "disease_name": "OMIM disease 601539",
+          "omim_id": "601539",
+          "phenotype_score": 0.16917988405711595,
+          "post_test_probability": 0.16917988405711595,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 6
+        },
+        {
+          "composite_lr": 1712.120876536432,
+          "disease_id": "OMIM:270400",
+          "disease_name": "OMIM disease 270400",
+          "omim_id": "270400",
+          "phenotype_score": 0.16917988405711595,
+          "post_test_probability": 0.16917988405711595,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 7
+        },
+        {
+          "composite_lr": 840.7521784575,
+          "disease_id": "OMIM:614863",
+          "disease_name": "OMIM disease 614863",
+          "omim_id": "614863",
+          "phenotype_score": 0.09090439036909302,
+          "post_test_probability": 0.09090439036909302,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 8
+        },
+        {
+          "composite_lr": 799.6630342604388,
+          "disease_id": "OMIM:612780",
+          "disease_name": "OMIM disease 612780",
+          "omim_id": "612780",
+          "phenotype_score": 0.08684755635441953,
+          "post_test_probability": 0.08684755635441953,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 9
+        },
+        {
+          "composite_lr": 799.6630342604388,
+          "disease_id": "OMIM:256550",
+          "disease_name": "OMIM disease 256550",
+          "omim_id": "256550",
+          "phenotype_score": 0.08684755635441953,
+          "post_test_probability": 0.08684755635441953,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 10
+        }
+      ],
+      "error": null,
+      "processing_time": 2661
+    },
+    {
+      "test_id": "test_0011",
+      "expected_omim": "125900",
+      "hpo_codes": [
+        "HP:0001566",
+        "HP:0000699"
+      ],
+      "predictions": [
+        {
+          "composite_lr": 327660.5847306303,
+          "disease_id": "OMIM:125900",
+          "disease_name": "OMIM disease 125900",
+          "omim_id": "125900",
+          "phenotype_score": 0.9749812973243563,
+          "post_test_probability": 0.9749812973243563,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 1
+        },
+        {
+          "composite_lr": 327660.5847306303,
+          "disease_id": "OMIM:309580",
+          "disease_name": "OMIM disease 309580",
+          "omim_id": "309580",
+          "phenotype_score": 0.9749812973243563,
+          "post_test_probability": 0.9749812973243563,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 2
+        },
+        {
+          "composite_lr": 327660.5847306303,
+          "disease_id": "OMIM:300915",
+          "disease_name": "OMIM disease 300915",
+          "omim_id": "300915",
+          "phenotype_score": 0.9749812973243563,
+          "post_test_probability": 0.9749812973243563,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 3
+        },
+        {
+          "composite_lr": 327660.5847306303,
+          "disease_id": "OMIM:136760",
+          "disease_name": "OMIM disease 136760",
+          "omim_id": "136760",
+          "phenotype_score": 0.9749812973243563,
+          "post_test_probability": 0.9749812973243563,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 4
+        },
+        {
+          "composite_lr": 327660.5847306303,
+          "disease_id": "OMIM:301040",
+          "disease_name": "OMIM disease 301040",
+          "omim_id": "301040",
+          "phenotype_score": 0.9749812973243563,
+          "post_test_probability": 0.9749812973243563,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 5
+        },
+        {
+          "composite_lr": 327660.5847306303,
+          "disease_id": "OMIM:608227",
+          "disease_name": "OMIM disease 608227",
+          "omim_id": "608227",
+          "phenotype_score": 0.9749812973243563,
+          "post_test_probability": 0.9749812973243563,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 6
+        },
+        {
+          "composite_lr": 327660.5847306303,
+          "disease_id": "OMIM:601349",
+          "disease_name": "OMIM disease 601349",
+          "omim_id": "601349",
+          "phenotype_score": 0.9749812973243563,
+          "post_test_probability": 0.9749812973243563,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 7
+        },
+        {
+          "composite_lr": 327660.5847306303,
+          "disease_id": "OMIM:148050",
+          "disease_name": "OMIM disease 148050",
+          "omim_id": "148050",
+          "phenotype_score": 0.9749812973243563,
+          "post_test_probability": 0.9749812973243563,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 8
+        },
+        {
+          "composite_lr": 327660.5847306303,
+          "disease_id": "OMIM:300602",
+          "disease_name": "OMIM disease 300602",
+          "omim_id": "300602",
+          "phenotype_score": 0.9749812973243563,
+          "post_test_probability": 0.9749812973243563,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 9
+        },
+        {
+          "composite_lr": 81915.14618265757,
+          "disease_id": "OMIM:608980",
+          "disease_name": "OMIM disease 608980",
+          "omim_id": "608980",
+          "phenotype_score": 0.9069120114239957,
+          "post_test_probability": 0.9069120114239957,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 10
+        }
+      ],
+      "error": null,
+      "processing_time": 2195
+    },
+    {
+      "test_id": "test_0012",
+      "expected_omim": "128230",
+      "hpo_codes": [
+        "HP:0007979",
+        "HP:0000473",
+        "HP:0001332",
+        "HP:0008297",
+        "HP:0002650",
+        "HP:0011463"
+      ],
+      "predictions": [
+        {
+          "composite_lr": 1129713717.0325325,
+          "disease_id": "OMIM:128230",
+          "disease_name": "OMIM disease 128230",
+          "omim_id": "128230",
+          "phenotype_score": 0.9999925574618628,
+          "post_test_probability": 0.9999925574618628,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 1
+        },
+        {
+          "composite_lr": 895.6385753617412,
+          "disease_id": "OMIM:609128",
+          "disease_name": "OMIM disease 609128",
+          "omim_id": "609128",
+          "phenotype_score": 0.09626755898854522,
+          "post_test_probability": 0.09626755898854522,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 2
+        },
+        {
+          "composite_lr": 33.526828898695165,
+          "disease_id": "OMIM:616684",
+          "disease_name": "OMIM disease 616684",
+          "omim_id": "616684",
+          "phenotype_score": 0.003971654604463203,
+          "post_test_probability": 0.003971654604463203,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 3
+        },
+        {
+          "composite_lr": 26.914042425339616,
+          "disease_id": "OMIM:256810",
+          "disease_name": "OMIM disease 256810",
+          "omim_id": "256810",
+          "phenotype_score": 0.0031907903613444372,
+          "post_test_probability": 0.0031907903613444372,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 4
+        },
+        {
+          "composite_lr": 21.73035347021873,
+          "disease_id": "OMIM:606002",
+          "disease_name": "OMIM disease 606002",
+          "omim_id": "606002",
+          "phenotype_score": 0.0025778230808145746,
+          "post_test_probability": 0.0025778230808145746,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 5
+        },
+        {
+          "composite_lr": 8.890346388900074,
+          "disease_id": "OMIM:607313",
+          "disease_name": "OMIM disease 607313",
+          "omim_id": "607313",
+          "phenotype_score": 0.0010562507081625819,
+          "post_test_probability": 0.0010562507081625819,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 6
+        },
+        {
+          "composite_lr": 5.371634696570307,
+          "disease_id": "OMIM:254090",
+          "disease_name": "OMIM disease 254090",
+          "omim_id": "254090",
+          "phenotype_score": 0.0006384639749440992,
+          "post_test_probability": 0.0006384639749440992,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 7
+        },
+        {
+          "composite_lr": 3.9361924143625813,
+          "disease_id": "OMIM:611694",
+          "disease_name": "OMIM disease 611694",
+          "omim_id": "611694",
+          "phenotype_score": 0.0004679294189026451,
+          "post_test_probability": 0.0004679294189026451,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 8
+        },
+        {
+          "composite_lr": 2.5400990691916294,
+          "disease_id": "OMIM:617560",
+          "disease_name": "OMIM disease 617560",
+          "omim_id": "617560",
+          "phenotype_score": 0.0003020137873752896,
+          "post_test_probability": 0.0003020137873752896,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 9
+        },
+        {
+          "composite_lr": 2.434912282624532,
+          "disease_id": "OMIM:619071",
+          "disease_name": "OMIM disease 619071",
+          "omim_id": "619071",
+          "phenotype_score": 0.00028951086454144943,
+          "post_test_probability": 0.00028951086454144943,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 10
+        }
+      ],
+      "error": null,
+      "processing_time": 2660
+    },
+    {
+      "test_id": "test_0013",
+      "expected_omim": "129840",
+      "hpo_codes": [
+        "HP:0000819",
+        "HP:0000737",
+        "HP:0000969",
+        "HP:0002013"
+      ],
+      "predictions": [
+        {
+          "composite_lr": 8708848.25764914,
+          "disease_id": "OMIM:129840",
+          "disease_name": "OMIM disease 129840",
+          "omim_id": "129840",
+          "phenotype_score": 0.9990354763297657,
+          "post_test_probability": 0.9990354763297657,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 1
+        },
+        {
+          "composite_lr": 17113.19792484186,
+          "disease_id": "OMIM:256810",
+          "disease_name": "OMIM disease 256810",
+          "omim_id": "256810",
+          "phenotype_score": 0.6705483800266363,
+          "post_test_probability": 0.6705483800266363,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 2
+        },
+        {
+          "composite_lr": 1709.9026260867306,
+          "disease_id": "OMIM:606721",
+          "disease_name": "OMIM disease 606721",
+          "omim_id": "606721",
+          "phenotype_score": 0.16899773493353576,
+          "post_test_probability": 0.16899773493353576,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 3
+        },
+        {
+          "composite_lr": 1400.3023865326884,
+          "disease_id": "OMIM:237300",
+          "disease_name": "OMIM disease 237300",
+          "omim_id": "237300",
+          "phenotype_score": 0.14276704890903208,
+          "post_test_probability": 0.14276704890903208,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 4
+        },
+        {
+          "composite_lr": 1400.3023865326884,
+          "disease_id": "OMIM:207900",
+          "disease_name": "OMIM disease 207900",
+          "omim_id": "207900",
+          "phenotype_score": 0.14276704890903208,
+          "post_test_probability": 0.14276704890903208,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 5
+        },
+        {
+          "composite_lr": 1400.3023865326884,
+          "disease_id": "OMIM:215700",
+          "disease_name": "OMIM disease 215700",
+          "omim_id": "215700",
+          "phenotype_score": 0.14276704890903208,
+          "post_test_probability": 0.14276704890903208,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 6
+        },
+        {
+          "composite_lr": 1285.635884242083,
+          "disease_id": "OMIM:304800",
+          "disease_name": "OMIM disease 304800",
+          "omim_id": "304800",
+          "phenotype_score": 0.1326267975808752,
+          "post_test_probability": 0.1326267975808752,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 7
+        },
+        {
+          "composite_lr": 368.07893435855163,
+          "disease_id": "OMIM:243800",
+          "disease_name": "OMIM disease 243800",
+          "omim_id": "243800",
+          "phenotype_score": 0.04194116041020485,
+          "post_test_probability": 0.04194116041020485,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 8
+        },
+        {
+          "composite_lr": 354.03402738911785,
+          "disease_id": "OMIM:616539",
+          "disease_name": "OMIM disease 616539",
+          "omim_id": "616539",
+          "phenotype_score": 0.040405461366898134,
+          "post_test_probability": 0.040405461366898134,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 9
+        },
+        {
+          "composite_lr": 240.00142253737138,
+          "disease_id": "OMIM:311250",
+          "disease_name": "OMIM disease 311250",
+          "omim_id": "311250",
+          "phenotype_score": 0.027752241334270462,
+          "post_test_probability": 0.027752241334270462,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 10
+        }
+      ],
+      "error": null,
+      "processing_time": 2347
+    },
+    {
+      "test_id": "test_0014",
+      "expected_omim": "133240",
+      "hpo_codes": [
+        "HP:0000006",
+        "HP:0002015"
+      ],
+      "predictions": [
+        {
+          "composite_lr": 0.3367582727814807,
+          "disease_id": "OMIM:249310",
+          "disease_name": "OMIM disease 249310",
+          "omim_id": "249310",
+          "phenotype_score": 4.00505215790925e-05,
+          "post_test_probability": 4.00505215790925e-05,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 1
+        },
+        {
+          "composite_lr": 0.3367582727814807,
+          "disease_id": "OMIM:615273",
+          "disease_name": "OMIM disease 615273",
+          "omim_id": "615273",
+          "phenotype_score": 4.00505215790925e-05,
+          "post_test_probability": 4.00505215790925e-05,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 2
+        },
+        {
+          "composite_lr": 0.3367582727814807,
+          "disease_id": "OMIM:221820",
+          "disease_name": "OMIM disease 221820",
+          "omim_id": "221820",
+          "phenotype_score": 4.00505215790925e-05,
+          "post_test_probability": 4.00505215790925e-05,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 3
+        },
+        {
+          "composite_lr": 0.3367582727814807,
+          "disease_id": "OMIM:226600",
+          "disease_name": "OMIM disease 226600",
+          "omim_id": "226600",
+          "phenotype_score": 4.00505215790925e-05,
+          "post_test_probability": 4.00505215790925e-05,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 4
+        },
+        {
+          "composite_lr": 0.3367582727814807,
+          "disease_id": "OMIM:605809",
+          "disease_name": "OMIM disease 605809",
+          "omim_id": "605809",
+          "phenotype_score": 4.00505215790925e-05,
+          "post_test_probability": 4.00505215790925e-05,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 5
+        },
+        {
+          "composite_lr": 0.3367582727814807,
+          "disease_id": "OMIM:183086",
+          "disease_name": "OMIM disease 183086",
+          "omim_id": "183086",
+          "phenotype_score": 4.00505215790925e-05,
+          "post_test_probability": 4.00505215790925e-05,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 6
+        },
+        {
+          "composite_lr": 0.3367582727814807,
+          "disease_id": "OMIM:255100",
+          "disease_name": "OMIM disease 255100",
+          "omim_id": "255100",
+          "phenotype_score": 4.00505215790925e-05,
+          "post_test_probability": 4.00505215790925e-05,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 7
+        },
+        {
+          "composite_lr": 0.3367582727814807,
+          "disease_id": "OMIM:128235",
+          "disease_name": "OMIM disease 128235",
+          "omim_id": "128235",
+          "phenotype_score": 4.00505215790925e-05,
+          "post_test_probability": 4.00505215790925e-05,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 8
+        },
+        {
+          "composite_lr": 0.3367582727814807,
+          "disease_id": "OMIM:609454",
+          "disease_name": "OMIM disease 609454",
+          "omim_id": "609454",
+          "phenotype_score": 4.00505215790925e-05,
+          "post_test_probability": 4.00505215790925e-05,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 9
+        },
+        {
+          "composite_lr": 0.3367582727814807,
+          "disease_id": "OMIM:611694",
+          "disease_name": "OMIM disease 611694",
+          "omim_id": "611694",
+          "phenotype_score": 4.00505215790925e-05,
+          "post_test_probability": 4.00505215790925e-05,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 10
+        }
+      ],
+      "error": null,
+      "processing_time": 2076
+    },
+    {
+      "test_id": "test_0015",
+      "expected_omim": "135750",
+      "hpo_codes": [
+        "HP:0000430",
+        "HP:0009556",
+        "HP:0001769",
+        "HP:0001773",
+        "HP:0006443",
+        "HP:0000271"
+      ],
+      "predictions": [
+        {
+          "composite_lr": 8878830406285.111,
+          "disease_id": "OMIM:135750",
+          "disease_name": "OMIM disease 135750",
+          "omim_id": "135750",
+          "phenotype_score": 0.9999999990530284,
+          "post_test_probability": 0.9999999990530284,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 1
+        },
+        {
+          "composite_lr": 21309.476814886468,
+          "disease_id": "OMIM:609945",
+          "disease_name": "OMIM disease 609945",
+          "omim_id": "609945",
+          "phenotype_score": 0.7170688463097192,
+          "post_test_probability": 0.7170688463097192,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 2
+        },
+        {
+          "composite_lr": 16695.245275419373,
+          "disease_id": "OMIM:166250",
+          "disease_name": "OMIM disease 166250",
+          "omim_id": "166250",
+          "phenotype_score": 0.665063225580919,
+          "post_test_probability": 0.665063225580919,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 3
+        },
+        {
+          "composite_lr": 12363.955542619851,
+          "disease_id": "OMIM:186500",
+          "disease_name": "OMIM disease 186500",
+          "omim_id": "186500",
+          "phenotype_score": 0.5952234741332618,
+          "post_test_probability": 0.5952234741332618,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 4
+        },
+        {
+          "composite_lr": 10624.247310075927,
+          "disease_id": "OMIM:305400",
+          "disease_name": "OMIM disease 305400",
+          "omim_id": "305400",
+          "phenotype_score": 0.5582234791816365,
+          "post_test_probability": 0.5582234791816365,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 5
+        },
+        {
+          "composite_lr": 4770.070291929998,
+          "disease_id": "OMIM:312870",
+          "disease_name": "OMIM disease 312870",
+          "omim_id": "312870",
+          "phenotype_score": 0.36197031782802824,
+          "post_test_probability": 0.36197031782802824,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 6
+        },
+        {
+          "composite_lr": 1722.3632994396967,
+          "disease_id": "OMIM:601803",
+          "disease_name": "OMIM disease 601803",
+          "omim_id": "601803",
+          "phenotype_score": 0.1700198945022001,
+          "post_test_probability": 0.1700198945022001,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 7
+        },
+        {
+          "composite_lr": 911.2662312172481,
+          "disease_id": "OMIM:602342",
+          "disease_name": "OMIM disease 602342",
+          "omim_id": "602342",
+          "phenotype_score": 0.09778304521065516,
+          "post_test_probability": 0.09778304521065516,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 8
+        },
+        {
+          "composite_lr": 248.4578869916928,
+          "disease_id": "OMIM:616835",
+          "disease_name": "OMIM disease 616835",
+          "omim_id": "616835",
+          "phenotype_score": 0.028702026883889495,
+          "post_test_probability": 0.028702026883889495,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 9
+        },
+        {
+          "composite_lr": 204.71353805074187,
+          "disease_id": "OMIM:269860",
+          "disease_name": "OMIM disease 269860",
+          "omim_id": "269860",
+          "phenotype_score": 0.023768761975691267,
+          "post_test_probability": 0.023768761975691267,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 10
+        }
+      ],
+      "error": null,
+      "processing_time": 2766
+    },
+    {
+      "test_id": "test_0016",
+      "expected_omim": "136760",
+      "hpo_codes": [
+        "HP:0000384",
+        "HP:0001156",
+        "HP:0000161",
+        "HP:0001274",
+        "HP:0002000",
+        "HP:0000286"
+      ],
+      "predictions": [
+        {
+          "composite_lr": 1379059425031.5427,
+          "disease_id": "OMIM:136760",
+          "disease_name": "OMIM disease 136760",
+          "omim_id": "136760",
+          "phenotype_score": 0.9999999939030909,
+          "post_test_probability": 0.9999999939030909,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 1
+        },
+        {
+          "composite_lr": 22987843.81623927,
+          "disease_id": "OMIM:200990",
+          "disease_name": "OMIM disease 200990",
+          "omim_id": "200990",
+          "phenotype_score": 0.9996343751987417,
+          "post_test_probability": 0.9996343751987417,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 2
+        },
+        {
+          "composite_lr": 10831528.883351559,
+          "disease_id": "OMIM:305450",
+          "disease_name": "OMIM disease 305450",
+          "omim_id": "305450",
+          "phenotype_score": 0.9992243497272651,
+          "post_test_probability": 0.9992243497272651,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 3
+        },
+        {
+          "composite_lr": 1479567.1330053841,
+          "disease_id": "OMIM:311200",
+          "disease_name": "OMIM disease 311200",
+          "omim_id": "311200",
+          "phenotype_score": 0.9943493679339804,
+          "post_test_probability": 0.9943493679339804,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 4
+        },
+        {
+          "composite_lr": 236759.88918729912,
+          "disease_id": "OMIM:607872",
+          "disease_name": "OMIM disease 607872",
+          "omim_id": "607872",
+          "phenotype_score": 0.9657051336214075,
+          "post_test_probability": 0.9657051336214075,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 5
+        },
+        {
+          "composite_lr": 14384.197088325473,
+          "disease_id": "OMIM:612651",
+          "disease_name": "OMIM disease 612651",
+          "omim_id": "612651",
+          "phenotype_score": 0.6311018210567023,
+          "post_test_probability": 0.6311018210567023,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 6
+        },
+        {
+          "composite_lr": 12812.980525173884,
+          "disease_id": "OMIM:609945",
+          "disease_name": "OMIM disease 609945",
+          "omim_id": "609945",
+          "phenotype_score": 0.6037883362634534,
+          "post_test_probability": 0.6037883362634534,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 7
+        },
+        {
+          "composite_lr": 5471.173811372416,
+          "disease_id": "OMIM:164200",
+          "disease_name": "OMIM disease 164200",
+          "omim_id": "164200",
+          "phenotype_score": 0.39420025181105567,
+          "post_test_probability": 0.39420025181105567,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 8
+        },
+        {
+          "composite_lr": 4862.293872844349,
+          "disease_id": "OMIM:618659",
+          "disease_name": "OMIM disease 618659",
+          "omim_id": "618659",
+          "phenotype_score": 0.3664043855723722,
+          "post_test_probability": 0.3664043855723722,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 9
+        },
+        {
+          "composite_lr": 4858.71987085984,
+          "disease_id": "OMIM:194190",
+          "disease_name": "OMIM disease 194190",
+          "omim_id": "194190",
+          "phenotype_score": 0.36623369741392886,
+          "post_test_probability": 0.36623369741392886,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 10
+        }
+      ],
+      "error": null,
+      "processing_time": 2765
+    },
+    {
+      "test_id": "test_0017",
+      "expected_omim": "139090",
+      "hpo_codes": [
+        "HP:0011974",
+        "HP:0003010",
+        "HP:0003676",
+        "HP:0012528",
+        "HP:0001892",
+        "HP:0012147"
+      ],
+      "predictions": [
+        {
+          "composite_lr": 837050961976.1201,
+          "disease_id": "OMIM:139090",
+          "disease_name": "OMIM disease 139090",
+          "omim_id": "139090",
+          "phenotype_score": 0.9999999899552114,
+          "post_test_probability": 0.9999999899552114,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 1
+        },
+        {
+          "composite_lr": 176877524.83984917,
+          "disease_id": "OMIM:187900",
+          "disease_name": "OMIM disease 187900",
+          "omim_id": "187900",
+          "phenotype_score": 0.999952466542336,
+          "post_test_probability": 0.999952466542336,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 2
+        },
+        {
+          "composite_lr": 3241.0410452480132,
+          "disease_id": "OMIM:231200",
+          "disease_name": "OMIM disease 231200",
+          "omim_id": "231200",
+          "phenotype_score": 0.27822384972796793,
+          "post_test_probability": 0.27822384972796793,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 3
+        },
+        {
+          "composite_lr": 3241.0410452480132,
+          "disease_id": "OMIM:277480",
+          "disease_name": "OMIM disease 277480",
+          "omim_id": "277480",
+          "phenotype_score": 0.27822384972796793,
+          "post_test_probability": 0.27822384972796793,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 4
+        },
+        {
+          "composite_lr": 1345.7609869656885,
+          "disease_id": "OMIM:616937",
+          "disease_name": "OMIM disease 616937",
+          "omim_id": "616937",
+          "phenotype_score": 0.1379735456675716,
+          "post_test_probability": 0.1379735456675716,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 5
+        },
+        {
+          "composite_lr": 896.3373420780378,
+          "disease_id": "OMIM:314050",
+          "disease_name": "OMIM disease 314050",
+          "omim_id": "314050",
+          "phenotype_score": 0.0963354303615403,
+          "post_test_probability": 0.0963354303615403,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 6
+        },
+        {
+          "composite_lr": 787.8895999667803,
+          "disease_id": "OMIM:193400",
+          "disease_name": "OMIM disease 193400",
+          "omim_id": "193400",
+          "phenotype_score": 0.08567845355272931,
+          "post_test_probability": 0.08567845355272931,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 7
+        },
+        {
+          "composite_lr": 71.70698736624301,
+          "disease_id": "OMIM:601399",
+          "disease_name": "OMIM disease 601399",
+          "omim_id": "601399",
+          "phenotype_score": 0.008456304855000051,
+          "post_test_probability": 0.008456304855000051,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 8
+        },
+        {
+          "composite_lr": 59.083161134842605,
+          "disease_id": "OMIM:254450",
+          "disease_name": "OMIM disease 254450",
+          "omim_id": "254450",
+          "phenotype_score": 0.0069779828555414465,
+          "post_test_probability": 0.0069779828555414465,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 9
+        },
+        {
+          "composite_lr": 37.881070016096686,
+          "disease_id": "OMIM:272650",
+          "disease_name": "OMIM disease 272650",
+          "omim_id": "272650",
+          "phenotype_score": 0.0044851531417579495,
+          "post_test_probability": 0.0044851531417579495,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 10
+        }
+      ],
+      "error": null,
+      "processing_time": 2591
+    },
+    {
+      "test_id": "test_0018",
+      "expected_omim": "142900",
+      "hpo_codes": [
+        "HP:0009623",
+        "HP:0000878",
+        "HP:0000882",
+        "HP:0005773",
+        "HP:0009622",
+        "HP:0000914"
+      ],
+      "predictions": [
+        {
+          "composite_lr": 3.1894227944782144e+17,
+          "disease_id": "OMIM:142900",
+          "disease_name": "OMIM disease 142900",
+          "omim_id": "142900",
+          "phenotype_score": 0.9999999999999737,
+          "post_test_probability": 0.9999999999999737,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 1
+        },
+        {
+          "composite_lr": 53704.611883560436,
+          "disease_id": "OMIM:609945",
+          "disease_name": "OMIM disease 609945",
+          "omim_id": "609945",
+          "phenotype_score": 0.8646329667191893,
+          "post_test_probability": 0.8646329667191893,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 2
+        },
+        {
+          "composite_lr": 19042.016274381327,
+          "disease_id": "OMIM:212066",
+          "disease_name": "OMIM disease 212066",
+          "omim_id": "212066",
+          "phenotype_score": 0.693697813656779,
+          "post_test_probability": 0.693697813656779,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 3
+        },
+        {
+          "composite_lr": 9724.692462524488,
+          "disease_id": "OMIM:122470",
+          "disease_name": "OMIM disease 122470",
+          "omim_id": "122470",
+          "phenotype_score": 0.5363071415137534,
+          "post_test_probability": 0.5363071415137534,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 4
+        },
+        {
+          "composite_lr": 3342.1788199158646,
+          "disease_id": "OMIM:200600",
+          "disease_name": "OMIM disease 200600",
+          "omim_id": "200600",
+          "phenotype_score": 0.2844364218739435,
+          "post_test_probability": 0.2844364218739435,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 5
+        },
+        {
+          "composite_lr": 3305.454801209769,
+          "disease_id": "OMIM:134780",
+          "disease_name": "OMIM disease 134780",
+          "omim_id": "134780",
+          "phenotype_score": 0.28219298723621494,
+          "post_test_probability": 0.28219298723621494,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 6
+        },
+        {
+          "composite_lr": 3158.7312603782593,
+          "disease_id": "OMIM:143095",
+          "disease_name": "OMIM disease 143095",
+          "omim_id": "143095",
+          "phenotype_score": 0.27308763290787835,
+          "post_test_probability": 0.27308763290787835,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 7
+        },
+        {
+          "composite_lr": 2462.553152955888,
+          "disease_id": "OMIM:223800",
+          "disease_name": "OMIM disease 223800",
+          "omim_id": "223800",
+          "phenotype_score": 0.22653430035308533,
+          "post_test_probability": 0.22653430035308533,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 8
+        },
+        {
+          "composite_lr": 2255.924654276484,
+          "disease_id": "OMIM:304050",
+          "disease_name": "OMIM disease 304050",
+          "omim_id": "304050",
+          "phenotype_score": 0.2115473174664457,
+          "post_test_probability": 0.2115473174664457,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 9
+        },
+        {
+          "composite_lr": 688.4741868560046,
+          "disease_id": "OMIM:314390",
+          "disease_name": "OMIM disease 314390",
+          "omim_id": "314390",
+          "phenotype_score": 0.07568582867533652,
+          "post_test_probability": 0.07568582867533652,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 10
+        }
+      ],
+      "error": null,
+      "processing_time": 2792
+    },
+    {
+      "test_id": "test_0019",
+      "expected_omim": "145900",
+      "hpo_codes": [
+        "HP:0003593",
+        "HP:0001178",
+        "HP:0003431",
+        "HP:0003376",
+        "HP:0001270",
+        "HP:0002460"
+      ],
+      "predictions": [
+        {
+          "composite_lr": 205368228.642239,
+          "disease_id": "OMIM:118220",
+          "disease_name": "OMIM disease 118220",
+          "omim_id": "118220",
+          "phenotype_score": 0.9999590605818779,
+          "post_test_probability": 0.9999590605818779,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 1
+        },
+        {
+          "composite_lr": 95092388.4882465,
+          "disease_id": "OMIM:145900",
+          "disease_name": "OMIM disease 145900",
+          "omim_id": "145900",
+          "phenotype_score": 0.9999115885427833,
+          "post_test_probability": 0.9999115885427833,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 2
+        },
+        {
+          "composite_lr": 9509238.990523351,
+          "disease_id": "OMIM:607684",
+          "disease_name": "OMIM disease 607684",
+          "omim_id": "607684",
+          "phenotype_score": 0.9991165883743774,
+          "post_test_probability": 0.9991165883743774,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 3
+        },
+        {
+          "composite_lr": 1807259.949997109,
+          "disease_id": "OMIM:118200",
+          "disease_name": "OMIM disease 118200",
+          "omim_id": "118200",
+          "phenotype_score": 0.995369197324867,
+          "post_test_probability": 0.995369197324867,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 4
+        },
+        {
+          "composite_lr": 180725.99499971088,
+          "disease_id": "OMIM:606595",
+          "disease_name": "OMIM disease 606595",
+          "omim_id": "606595",
+          "phenotype_score": 0.9555447448777632,
+          "post_test_probability": 0.9555447448777632,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 5
+        },
+        {
+          "composite_lr": 61088.03501756172,
+          "disease_id": "OMIM:214400",
+          "disease_name": "OMIM disease 214400",
+          "omim_id": "214400",
+          "phenotype_score": 0.8790146805083875,
+          "post_test_probability": 0.8790146805083875,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 6
+        },
+        {
+          "composite_lr": 45181.49874992772,
+          "disease_id": "OMIM:604563",
+          "disease_name": "OMIM disease 604563",
+          "omim_id": "604563",
+          "phenotype_score": 0.8431035893947163,
+          "post_test_probability": 0.8431035893947163,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 7
+        },
+        {
+          "composite_lr": 1055.451254808291,
+          "disease_id": "OMIM:614895",
+          "disease_name": "OMIM disease 614895",
+          "omim_id": "614895",
+          "phenotype_score": 0.11152921131939324,
+          "post_test_probability": 0.11152921131939324,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 8
+        },
+        {
+          "composite_lr": 959.4907820470312,
+          "disease_id": "OMIM:611228",
+          "disease_name": "OMIM disease 611228",
+          "omim_id": "611228",
+          "phenotype_score": 0.1024277263112885,
+          "post_test_probability": 0.1024277263112885,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 9
+        },
+        {
+          "composite_lr": 803.1132551355004,
+          "disease_id": "OMIM:609260",
+          "disease_name": "OMIM disease 609260",
+          "omim_id": "609260",
+          "phenotype_score": 0.08718959727128946,
+          "post_test_probability": 0.08718959727128946,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 10
+        }
+      ],
+      "error": null,
+      "processing_time": 2608
+    },
+    {
+      "test_id": "test_0020",
+      "expected_omim": "147750",
+      "hpo_codes": [
+        "HP:0002996",
+        "HP:0003097",
+        "HP:0030241",
+        "HP:0008953",
+        "HP:0001498",
+        "HP:0010034"
+      ],
+      "predictions": [
+        {
+          "composite_lr": 1.4735057115060058e+17,
+          "disease_id": "OMIM:147750",
+          "disease_name": "OMIM disease 147750",
+          "omim_id": "147750",
+          "phenotype_score": 0.9999999999999429,
+          "post_test_probability": 0.9999999999999429,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 1
+        },
+        {
+          "composite_lr": 21625.06754917149,
+          "disease_id": "OMIM:142900",
+          "disease_name": "OMIM disease 142900",
+          "omim_id": "142900",
+          "phenotype_score": 0.7200419175885365,
+          "post_test_probability": 0.7200419175885365,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 2
+        },
+        {
+          "composite_lr": 11570.708406133637,
+          "disease_id": "OMIM:272460",
+          "disease_name": "OMIM disease 272460",
+          "omim_id": "272460",
+          "phenotype_score": 0.5791519737372677,
+          "post_test_probability": 0.5791519737372677,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 3
+        },
+        {
+          "composite_lr": 4883.985924879796,
+          "disease_id": "OMIM:177170",
+          "disease_name": "OMIM disease 177170",
+          "omim_id": "177170",
+          "phenotype_score": 0.367438391259353,
+          "post_test_probability": 0.367438391259353,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 4
+        },
+        {
+          "composite_lr": 3492.235022241011,
+          "disease_id": "OMIM:611717",
+          "disease_name": "OMIM disease 611717",
+          "omim_id": "611717",
+          "phenotype_score": 0.2934593321656403,
+          "post_test_probability": 0.2934593321656403,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 5
+        },
+        {
+          "composite_lr": 794.4571455106014,
+          "disease_id": "OMIM:210710",
+          "disease_name": "OMIM disease 210710",
+          "omim_id": "210710",
+          "phenotype_score": 0.08633098018806594,
+          "post_test_probability": 0.08633098018806594,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 6
+        },
+        {
+          "composite_lr": 613.315432943732,
+          "disease_id": "OMIM:616723",
+          "disease_name": "OMIM disease 616723",
+          "omim_id": "616723",
+          "phenotype_score": 0.06798514446175419,
+          "post_test_probability": 0.06798514446175419,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 7
+        },
+        {
+          "composite_lr": 295.3192693311739,
+          "disease_id": "OMIM:139210",
+          "disease_name": "OMIM disease 139210",
+          "omim_id": "139210",
+          "phenotype_score": 0.03393179776500011,
+          "post_test_probability": 0.03393179776500011,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 8
+        },
+        {
+          "composite_lr": 117.67572465059547,
+          "disease_id": "OMIM:271640",
+          "disease_name": "OMIM disease 271640",
+          "omim_id": "271640",
+          "phenotype_score": 0.013802510023968585,
+          "post_test_probability": 0.013802510023968585,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 9
+        },
+        {
+          "composite_lr": 69.34344709629184,
+          "disease_id": "OMIM:180700",
+          "disease_name": "OMIM disease 180700",
+          "omim_id": "180700",
+          "phenotype_score": 0.008179855815567289,
+          "post_test_probability": 0.008179855815567289,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 10
+        }
+      ],
+      "error": null,
+      "processing_time": 3105
+    },
+    {
+      "test_id": "test_0021",
+      "expected_omim": "150300",
+      "hpo_codes": [
+        "HP:0005950",
+        "HP:0000006"
+      ],
+      "predictions": [
+        {
+          "composite_lr": 24.025714285714287,
+          "disease_id": "OMIM:300373",
+          "disease_name": "OMIM disease 300373",
+          "omim_id": "300373",
+          "phenotype_score": 0.0028493407278169726,
+          "post_test_probability": 0.0028493407278169726,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 1
+        },
+        {
+          "composite_lr": 24.025714285714287,
+          "disease_id": "OMIM:150300",
+          "disease_name": "OMIM disease 150300",
+          "omim_id": "150300",
+          "phenotype_score": 0.0028493407278169726,
+          "post_test_probability": 0.0028493407278169726,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 2
+        },
+        {
+          "composite_lr": 24.025714285714287,
+          "disease_id": "OMIM:219000",
+          "disease_name": "OMIM disease 219000",
+          "omim_id": "219000",
+          "phenotype_score": 0.0028493407278169726,
+          "post_test_probability": 0.0028493407278169726,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 3
+        },
+        {
+          "composite_lr": 12.012857142857143,
+          "disease_id": "OMIM:617660",
+          "disease_name": "OMIM disease 617660",
+          "omim_id": "617660",
+          "phenotype_score": 0.0014267029453127746,
+          "post_test_probability": 0.0014267029453127746,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 4
+        },
+        {
+          "composite_lr": 0.1319152777918661,
+          "disease_id": "OMIM:187760",
+          "disease_name": "OMIM disease 187760",
+          "omim_id": "187760",
+          "phenotype_score": 1.568901143810228e-05,
+          "post_test_probability": 1.568901143810228e-05,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 5
+        },
+        {
+          "composite_lr": 0.1311887428525947,
+          "disease_id": "OMIM:202650",
+          "disease_name": "OMIM disease 202650",
+          "omim_id": "202650",
+          "phenotype_score": 1.56026041825127e-05,
+          "post_test_probability": 1.56026041825127e-05,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 6
+        },
+        {
+          "composite_lr": 0.1311887428525947,
+          "disease_id": "OMIM:610443",
+          "disease_name": "OMIM disease 610443",
+          "omim_id": "610443",
+          "phenotype_score": 1.56026041825127e-05,
+          "post_test_probability": 1.56026041825127e-05,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 7
+        },
+        {
+          "composite_lr": 0.1311887428525947,
+          "disease_id": "OMIM:244450",
+          "disease_name": "OMIM disease 244450",
+          "omim_id": "244450",
+          "phenotype_score": 1.56026041825127e-05,
+          "post_test_probability": 1.56026041825127e-05,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 8
+        },
+        {
+          "composite_lr": 0.1311887428525947,
+          "disease_id": "OMIM:616462",
+          "disease_name": "OMIM disease 616462",
+          "omim_id": "616462",
+          "phenotype_score": 1.56026041825127e-05,
+          "post_test_probability": 1.56026041825127e-05,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 9
+        },
+        {
+          "composite_lr": 0.1311887428525947,
+          "disease_id": "OMIM:154400",
+          "disease_name": "OMIM disease 154400",
+          "omim_id": "154400",
+          "phenotype_score": 1.56026041825127e-05,
+          "post_test_probability": 1.56026041825127e-05,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 10
+        }
+      ],
+      "error": null,
+      "processing_time": 2106
+    },
+    {
+      "test_id": "test_0022",
+      "expected_omim": "153700",
+      "hpo_codes": [
+        "HP:0000006",
+        "HP:0007754",
+        "HP:0000512",
+        "HP:0000505",
+        "HP:0008028"
+      ],
+      "predictions": [
+        {
+          "composite_lr": 16405900.838287199,
+          "disease_id": "OMIM:153700",
+          "disease_name": "OMIM disease 153700",
+          "omim_id": "153700",
+          "phenotype_score": 0.999487763994035,
+          "post_test_probability": 0.999487763994035,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 1
+        },
+        {
+          "composite_lr": 94694.95997780726,
+          "disease_id": "OMIM:266920",
+          "disease_name": "OMIM disease 266920",
+          "omim_id": "266920",
+          "phenotype_score": 0.9184504499016342,
+          "post_test_probability": 0.9184504499016342,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 2
+        },
+        {
+          "composite_lr": 77191.67384403321,
+          "disease_id": "OMIM:256730",
+          "disease_name": "OMIM disease 256730",
+          "omim_id": "256730",
+          "phenotype_score": 0.9017753266756625,
+          "post_test_probability": 0.9017753266756625,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 3
+        },
+        {
+          "composite_lr": 67635.3208154807,
+          "disease_id": "OMIM:607475",
+          "disease_name": "OMIM disease 607475",
+          "omim_id": "607475",
+          "phenotype_score": 0.8894314463146339,
+          "post_test_probability": 0.8894314463146339,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 4
+        },
+        {
+          "composite_lr": 42691.483582272165,
+          "disease_id": "OMIM:204200",
+          "disease_name": "OMIM disease 204200",
+          "omim_id": "204200",
+          "phenotype_score": 0.8354582197203071,
+          "post_test_probability": 0.8354582197203071,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 5
+        },
+        {
+          "composite_lr": 42691.483582272165,
+          "disease_id": "OMIM:608194",
+          "disease_name": "OMIM disease 608194",
+          "omim_id": "608194",
+          "phenotype_score": 0.8354582197203071,
+          "post_test_probability": 0.8354582197203071,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 6
+        },
+        {
+          "composite_lr": 42691.483582272165,
+          "disease_id": "OMIM:613464",
+          "disease_name": "OMIM disease 613464",
+          "omim_id": "613464",
+          "phenotype_score": 0.8354582197203071,
+          "post_test_probability": 0.8354582197203071,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 7
+        },
+        {
+          "composite_lr": 42691.483582272165,
+          "disease_id": "OMIM:612095",
+          "disease_name": "OMIM disease 612095",
+          "omim_id": "612095",
+          "phenotype_score": 0.8354582197203071,
+          "post_test_probability": 0.8354582197203071,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 8
+        },
+        {
+          "composite_lr": 42691.483582272165,
+          "disease_id": "OMIM:613617",
+          "disease_name": "OMIM disease 613617",
+          "omim_id": "613617",
+          "phenotype_score": 0.8354582197203071,
+          "post_test_probability": 0.8354582197203071,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 9
+        },
+        {
+          "composite_lr": 22903.02415482467,
+          "disease_id": "OMIM:136900",
+          "disease_name": "OMIM disease 136900",
+          "omim_id": "136900",
+          "phenotype_score": 0.7314683812824301,
+          "post_test_probability": 0.7314683812824301,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 10
+        }
+      ],
+      "error": null,
+      "processing_time": 2464
+    },
+    {
+      "test_id": "test_0023",
+      "expected_omim": "154275",
+      "hpo_codes": [
+        "HP:0002905",
+        "HP:0009045",
+        "HP:0002153",
+        "HP:0003198",
+        "HP:0003236",
+        "HP:0002047"
+      ],
+      "predictions": [
+        {
+          "composite_lr": 373863796271377.9,
+          "disease_id": "OMIM:154275",
+          "disease_name": "OMIM disease 154275",
+          "omim_id": "154275",
+          "phenotype_score": 0.9999999999775105,
+          "post_test_probability": 0.9999999999775105,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 1
+        },
+        {
+          "composite_lr": 373863796271377.9,
+          "disease_id": "OMIM:154276",
+          "disease_name": "OMIM disease 154276",
+          "omim_id": "154276",
+          "phenotype_score": 0.9999999999775105,
+          "post_test_probability": 0.9999999999775105,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 2
+        },
+        {
+          "composite_lr": 774780825070.3389,
+          "disease_id": "OMIM:145600",
+          "disease_name": "OMIM disease 145600",
+          "omim_id": "145600",
+          "phenotype_score": 0.9999999891478988,
+          "post_test_probability": 0.9999999891478988,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 3
+        },
+        {
+          "composite_lr": 880.7174949360096,
+          "disease_id": "OMIM:268200",
+          "disease_name": "OMIM disease 268200",
+          "omim_id": "268200",
+          "phenotype_score": 0.09481583387762156,
+          "post_test_probability": 0.09481583387762156,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 4
+        },
+        {
+          "composite_lr": 1.596891654941363,
+          "disease_id": "OMIM:614921",
+          "disease_name": "OMIM disease 614921",
+          "omim_id": "614921",
+          "phenotype_score": 0.0001898892034320931,
+          "post_test_probability": 0.0001898892034320931,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 5
+        },
+        {
+          "composite_lr": 1.379810755916753,
+          "disease_id": "OMIM:219800",
+          "disease_name": "OMIM disease 219800",
+          "omim_id": "219800",
+          "phenotype_score": 0.00016407996629572166,
+          "post_test_probability": 0.00016407996629572166,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 6
+        },
+        {
+          "composite_lr": 0.9061188988730716,
+          "disease_id": "OMIM:619542",
+          "disease_name": "OMIM disease 619542",
+          "omim_id": "619542",
+          "phenotype_score": 0.00010775704783248619,
+          "post_test_probability": 0.00010775704783248619,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 7
+        },
+        {
+          "composite_lr": 0.7376857109579502,
+          "disease_id": "OMIM:261670",
+          "disease_name": "OMIM disease 261670",
+          "omim_id": "261670",
+          "phenotype_score": 8.772847227848552e-05,
+          "post_test_probability": 8.772847227848552e-05,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 8
+        },
+        {
+          "composite_lr": 0.7376857109579502,
+          "disease_id": "OMIM:620386",
+          "disease_name": "OMIM disease 620386",
+          "omim_id": "620386",
+          "phenotype_score": 8.772847227848552e-05,
+          "post_test_probability": 8.772847227848552e-05,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 9
+        },
+        {
+          "composite_lr": 0.6454749970882065,
+          "disease_id": "OMIM:609015",
+          "disease_name": "OMIM disease 609015",
+          "omim_id": "609015",
+          "phenotype_score": 7.676325503406124e-05,
+          "post_test_probability": 7.676325503406124e-05,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 10
+        }
+      ],
+      "error": null,
+      "processing_time": 2592
+    },
+    {
+      "test_id": "test_0024",
+      "expected_omim": "158300",
+      "hpo_codes": [
+        "HP:0010621",
+        "HP:0002015",
+        "HP:0005684",
+        "HP:0011968",
+        "HP:0001762",
+        "HP:0000211"
+      ],
+      "predictions": [
+        {
+          "composite_lr": 1496146637263.306,
+          "disease_id": "OMIM:158300",
+          "disease_name": "OMIM disease 158300",
+          "omim_id": "158300",
+          "phenotype_score": 0.99999999438023,
+          "post_test_probability": 0.99999999438023,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 1
+        },
+        {
+          "composite_lr": 124023.75761269277,
+          "disease_id": "OMIM:254940",
+          "disease_name": "OMIM disease 254940",
+          "omim_id": "254940",
+          "phenotype_score": 0.9365106968934909,
+          "post_test_probability": 0.9365106968934909,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 2
+        },
+        {
+          "composite_lr": 6796.4816251658285,
+          "disease_id": "OMIM:620029",
+          "disease_name": "OMIM disease 620029",
+          "omim_id": "620029",
+          "phenotype_score": 0.4470051523438046,
+          "post_test_probability": 0.4470051523438046,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 3
+        },
+        {
+          "composite_lr": 2491.498583793754,
+          "disease_id": "OMIM:615829",
+          "disease_name": "OMIM disease 615829",
+          "omim_id": "615829",
+          "phenotype_score": 0.22858836712895336,
+          "post_test_probability": 0.22858836712895336,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 4
+        },
+        {
+          "composite_lr": 1935.5274118889365,
+          "disease_id": "OMIM:161800",
+          "disease_name": "OMIM disease 161800",
+          "omim_id": "161800",
+          "phenotype_score": 0.18712450161481908,
+          "post_test_probability": 0.18712450161481908,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 5
+        },
+        {
+          "composite_lr": 584.5944512334025,
+          "disease_id": "OMIM:618198",
+          "disease_name": "OMIM disease 618198",
+          "omim_id": "618198",
+          "phenotype_score": 0.06500843048173055,
+          "post_test_probability": 0.06500843048173055,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 6
+        },
+        {
+          "composite_lr": 562.8539533545977,
+          "disease_id": "OMIM:121070",
+          "disease_name": "OMIM disease 121070",
+          "omim_id": "121070",
+          "phenotype_score": 0.06274251663010541,
+          "post_test_probability": 0.06274251663010541,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 7
+        },
+        {
+          "composite_lr": 307.95096385774946,
+          "disease_id": "OMIM:264090",
+          "disease_name": "OMIM disease 264090",
+          "omim_id": "264090",
+          "phenotype_score": 0.03533188347831732,
+          "post_test_probability": 0.03533188347831732,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 8
+        },
+        {
+          "composite_lr": 199.51625779294585,
+          "disease_id": "OMIM:256030",
+          "disease_name": "OMIM disease 256030",
+          "omim_id": "256030",
+          "phenotype_score": 0.023179306529024654,
+          "post_test_probability": 0.023179306529024654,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 9
+        },
+        {
+          "composite_lr": 190.76014750285577,
+          "disease_id": "OMIM:616287",
+          "disease_name": "OMIM disease 616287",
+          "omim_id": "616287",
+          "phenotype_score": 0.022184610831161973,
+          "post_test_probability": 0.022184610831161973,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 10
+        }
+      ],
+      "error": null,
+      "processing_time": 2681
+    },
+    {
+      "test_id": "test_0025",
+      "expected_omim": "158901",
+      "hpo_codes": [
+        "HP:0008970",
+        "HP:0003581",
+        "HP:0030664",
+        "HP:0010984"
+      ],
+      "predictions": [
+        {
+          "composite_lr": 1414.225603141117,
+          "disease_id": "OMIM:158900",
+          "disease_name": "OMIM disease 158900",
+          "omim_id": "158900",
+          "phenotype_score": 0.1439821951034043,
+          "post_test_probability": 0.1439821951034043,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 1
+        },
+        {
+          "composite_lr": 942.817096858883,
+          "disease_id": "OMIM:158901",
+          "disease_name": "OMIM disease 158901",
+          "omim_id": "158901",
+          "phenotype_score": 0.10082724184345272,
+          "post_test_probability": 0.10082724184345272,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 2
+        },
+        {
+          "composite_lr": 16.318970580300935,
+          "disease_id": "OMIM:254090",
+          "disease_name": "OMIM disease 254090",
+          "omim_id": "254090",
+          "phenotype_score": 0.0019371263881734072,
+          "post_test_probability": 0.0019371263881734072,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 3
+        },
+        {
+          "composite_lr": 16.318970580300935,
+          "disease_id": "OMIM:607155",
+          "disease_name": "OMIM disease 607155",
+          "omim_id": "607155",
+          "phenotype_score": 0.0019371263881734072,
+          "post_test_probability": 0.0019371263881734072,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 4
+        },
+        {
+          "composite_lr": 16.318970580300935,
+          "disease_id": "OMIM:601846",
+          "disease_name": "OMIM disease 601846",
+          "omim_id": "601846",
+          "phenotype_score": 0.0019371263881734072,
+          "post_test_probability": 0.0019371263881734072,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 5
+        },
+        {
+          "composite_lr": 16.318970580300935,
+          "disease_id": "OMIM:613530",
+          "disease_name": "OMIM disease 613530",
+          "omim_id": "613530",
+          "phenotype_score": 0.0019371263881734072,
+          "post_test_probability": 0.0019371263881734072,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 6
+        },
+        {
+          "composite_lr": 4.455478970970019,
+          "disease_id": "OMIM:615424",
+          "disease_name": "OMIM disease 615424",
+          "omim_id": "615424",
+          "phenotype_score": 0.0005296288321653053,
+          "post_test_probability": 0.0005296288321653053,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 7
+        },
+        {
+          "composite_lr": 0.5744207436892039,
+          "disease_id": "OMIM:608799",
+          "disease_name": "OMIM disease 608799",
+          "omim_id": "608799",
+          "phenotype_score": 6.831368968705635e-05,
+          "post_test_probability": 6.831368968705635e-05,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 8
+        },
+        {
+          "composite_lr": 0.2829420227604776,
+          "disease_id": "OMIM:618129",
+          "disease_name": "OMIM disease 618129",
+          "omim_id": "618129",
+          "phenotype_score": 3.365039267962728e-05,
+          "post_test_probability": 3.365039267962728e-05,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 9
+        },
+        {
+          "composite_lr": 0.2829420227604776,
+          "disease_id": "OMIM:619733",
+          "disease_name": "OMIM disease 619733",
+          "omim_id": "619733",
+          "phenotype_score": 3.365039267962728e-05,
+          "post_test_probability": 3.365039267962728e-05,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 10
+        }
+      ],
+      "error": null,
+      "processing_time": 2406
+    },
+    {
+      "test_id": "test_0026",
+      "expected_omim": "163500",
+      "hpo_codes": [
+        "HP:0000006",
+        "HP:0031624"
+      ],
+      "predictions": [
+        {
+          "composite_lr": 24.13387716003412,
+          "disease_id": "OMIM:615981",
+          "disease_name": "OMIM disease 615981",
+          "omim_id": "615981",
+          "phenotype_score": 0.002862131639703339,
+          "post_test_probability": 0.002862131639703339,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 1
+        },
+        {
+          "composite_lr": 24.13387716003412,
+          "disease_id": "OMIM:163500",
+          "disease_name": "OMIM disease 163500",
+          "omim_id": "163500",
+          "phenotype_score": 0.002862131639703339,
+          "post_test_probability": 0.002862131639703339,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 2
+        },
+        {
+          "composite_lr": 12.06693858001706,
+          "disease_id": "OMIM:601552",
+          "disease_name": "OMIM disease 601552",
+          "omim_id": "601552",
+          "phenotype_score": 0.0014331167041828838,
+          "post_test_probability": 0.0014331167041828838,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 3
+        },
+        {
+          "composite_lr": 8.044625959759903,
+          "disease_id": "OMIM:620022",
+          "disease_name": "OMIM disease 620022",
+          "omim_id": "620022",
+          "phenotype_score": 0.0009558677879328022,
+          "post_test_probability": 0.0009558677879328022,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 4
+        },
+        {
+          "composite_lr": 8.044625959759903,
+          "disease_id": "OMIM:619758",
+          "disease_name": "OMIM disease 619758",
+          "omim_id": "619758",
+          "phenotype_score": 0.0009558677879328022,
+          "post_test_probability": 0.0009558677879328022,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 5
+        },
+        {
+          "composite_lr": 4.826775503931383,
+          "disease_id": "OMIM:300578",
+          "disease_name": "OMIM disease 300578",
+          "omim_id": "300578",
+          "phenotype_score": 0.00057374003206458,
+          "post_test_probability": 0.00057374003206458,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 6
+        },
+        {
+          "composite_lr": 4.826775432006825,
+          "disease_id": "OMIM:248000",
+          "disease_name": "Ataxia-telangiectasia",
+          "omim_id": "248000",
+          "phenotype_score": 0.0005737400235200927,
+          "post_test_probability": 0.0005737400235200927,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 7
+        },
+        {
+          "composite_lr": 4.826775432006825,
+          "disease_id": "OMIM:249310",
+          "disease_name": "OMIM disease 249310",
+          "omim_id": "249310",
+          "phenotype_score": 0.0005737400235200927,
+          "post_test_probability": 0.0005737400235200927,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 8
+        },
+        {
+          "composite_lr": 4.826775432006825,
+          "disease_id": "OMIM:615278",
+          "disease_name": "OMIM disease 615278",
+          "omim_id": "615278",
+          "phenotype_score": 0.0005737400235200927,
+          "post_test_probability": 0.0005737400235200927,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 9
+        },
+        {
+          "composite_lr": 4.826775432006825,
+          "disease_id": "OMIM:615280",
+          "disease_name": "OMIM disease 615280",
+          "omim_id": "615280",
+          "phenotype_score": 0.0005737400235200927,
+          "post_test_probability": 0.0005737400235200927,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 10
+        }
+      ],
+      "error": null,
+      "processing_time": 2094
+    },
+    {
+      "test_id": "test_0027",
+      "expected_omim": "165510",
+      "hpo_codes": [
+        "HP:0000006",
+        "HP:0007843",
+        "HP:0000512",
+        "HP:0007663"
+      ],
+      "predictions": [
+        {
+          "composite_lr": 2159.7139187717044,
+          "disease_id": "OMIM:604393",
+          "disease_name": "OMIM disease 604393",
+          "omim_id": "604393",
+          "phenotype_score": 0.20436907503101012,
+          "post_test_probability": 0.20436907503101012,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 1
+        },
+        {
+          "composite_lr": 2159.7139187717044,
+          "disease_id": "OMIM:609033",
+          "disease_name": "OMIM disease 609033",
+          "omim_id": "609033",
+          "phenotype_score": 0.20436907503101012,
+          "post_test_probability": 0.20436907503101012,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 2
+        },
+        {
+          "composite_lr": 2159.7139187717044,
+          "disease_id": "OMIM:165510",
+          "disease_name": "OMIM disease 165510",
+          "omim_id": "165510",
+          "phenotype_score": 0.20436907503101012,
+          "post_test_probability": 0.20436907503101012,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 3
+        },
+        {
+          "composite_lr": 2159.7139187717044,
+          "disease_id": "OMIM:204100",
+          "disease_name": "OMIM disease 204100",
+          "omim_id": "204100",
+          "phenotype_score": 0.20436907503101012,
+          "post_test_probability": 0.20436907503101012,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 4
+        },
+        {
+          "composite_lr": 2159.7139187717044,
+          "disease_id": "OMIM:600105",
+          "disease_name": "OMIM disease 600105",
+          "omim_id": "600105",
+          "phenotype_score": 0.20436907503101012,
+          "post_test_probability": 0.20436907503101012,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 5
+        },
+        {
+          "composite_lr": 2159.7139187717044,
+          "disease_id": "OMIM:613464",
+          "disease_name": "OMIM disease 613464",
+          "omim_id": "613464",
+          "phenotype_score": 0.20436907503101012,
+          "post_test_probability": 0.20436907503101012,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 6
+        },
+        {
+          "composite_lr": 2159.7139187717044,
+          "disease_id": "OMIM:612095",
+          "disease_name": "OMIM disease 612095",
+          "omim_id": "612095",
+          "phenotype_score": 0.20436907503101012,
+          "post_test_probability": 0.20436907503101012,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 7
+        },
+        {
+          "composite_lr": 2159.7139187717044,
+          "disease_id": "OMIM:180105",
+          "disease_name": "OMIM disease 180105",
+          "omim_id": "180105",
+          "phenotype_score": 0.20436907503101012,
+          "post_test_probability": 0.20436907503101012,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 8
+        },
+        {
+          "composite_lr": 2159.7139187717044,
+          "disease_id": "OMIM:613194",
+          "disease_name": "OMIM disease 613194",
+          "omim_id": "613194",
+          "phenotype_score": 0.20436907503101012,
+          "post_test_probability": 0.20436907503101012,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 9
+        },
+        {
+          "composite_lr": 2159.7139187717044,
+          "disease_id": "OMIM:609913",
+          "disease_name": "OMIM disease 609913",
+          "omim_id": "609913",
+          "phenotype_score": 0.20436907503101012,
+          "post_test_probability": 0.20436907503101012,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 10
+        }
+      ],
+      "error": null,
+      "processing_time": 2351
+    },
+    {
+      "test_id": "test_0028",
+      "expected_omim": "167000",
+      "hpo_codes": [
+        "HP:0003002",
+        "HP:0001442",
+        "HP:0006774",
+        "HP:0100621"
+      ],
+      "predictions": [
+        {
+          "composite_lr": 104041528.83674814,
+          "disease_id": "OMIM:167000",
+          "disease_name": "OMIM disease 167000",
+          "omim_id": "167000",
+          "phenotype_score": 0.9999191926467654,
+          "post_test_probability": 0.9999191926467654,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 1
+        },
+        {
+          "composite_lr": 1284463.318972199,
+          "disease_id": "OMIM:617883",
+          "disease_name": "OMIM disease 617883",
+          "omim_id": "617883",
+          "phenotype_score": 0.9934966458945936,
+          "post_test_probability": 0.9934966458945936,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 2
+        },
+        {
+          "composite_lr": 1284463.318972199,
+          "disease_id": "OMIM:604370",
+          "disease_name": "OMIM disease 604370",
+          "omim_id": "604370",
+          "phenotype_score": 0.9934966458945936,
+          "post_test_probability": 0.9934966458945936,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 3
+        },
+        {
+          "composite_lr": 1284463.318972199,
+          "disease_id": "OMIM:158320",
+          "disease_name": "OMIM disease 158320",
+          "omim_id": "158320",
+          "phenotype_score": 0.9934966458945936,
+          "post_test_probability": 0.9934966458945936,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 4
+        },
+        {
+          "composite_lr": 1284463.318972199,
+          "disease_id": "OMIM:612555",
+          "disease_name": "OMIM disease 612555",
+          "omim_id": "612555",
+          "phenotype_score": 0.9934966458945936,
+          "post_test_probability": 0.9934966458945936,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 5
+        },
+        {
+          "composite_lr": 10443.843854619112,
+          "disease_id": "OMIM:158350",
+          "disease_name": "OMIM disease 158350",
+          "omim_id": "158350",
+          "phenotype_score": 0.5539958815254108,
+          "post_test_probability": 0.5539958815254108,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 6
+        },
+        {
+          "composite_lr": 10443.843854619112,
+          "disease_id": "OMIM:613399",
+          "disease_name": "OMIM disease 613399",
+          "omim_id": "613399",
+          "phenotype_score": 0.5539958815254108,
+          "post_test_probability": 0.5539958815254108,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 7
+        },
+        {
+          "composite_lr": 446.314826310532,
+          "disease_id": "OMIM:614350",
+          "disease_name": "OMIM disease 614350",
+          "omim_id": "614350",
+          "phenotype_score": 0.05040647809182375,
+          "post_test_probability": 0.05040647809182375,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 8
+        },
+        {
+          "composite_lr": 27.064995498529445,
+          "disease_id": "OMIM:614337",
+          "disease_name": "OMIM disease 614337",
+          "omim_id": "614337",
+          "phenotype_score": 0.0032086291585154353,
+          "post_test_probability": 0.0032086291585154353,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 9
+        },
+        {
+          "composite_lr": 12.22987271422985,
+          "disease_id": "OMIM:616425",
+          "disease_name": "OMIM disease 616425",
+          "omim_id": "616425",
+          "phenotype_score": 0.0014524392919320142,
+          "post_test_probability": 0.0014524392919320142,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 10
+        }
+      ],
+      "error": null,
+      "processing_time": 2493
+    },
+    {
+      "test_id": "test_0029",
+      "expected_omim": "168860",
+      "hpo_codes": [
+        "HP:0003065",
+        "HP:0006443",
+        "HP:0000006"
+      ],
+      "predictions": [
+        {
+          "composite_lr": 6500.064563201937,
+          "disease_id": "OMIM:147891",
+          "disease_name": "OMIM disease 147891",
+          "omim_id": "147891",
+          "phenotype_score": 0.4360099552591326,
+          "post_test_probability": 0.4360099552591326,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 1
+        },
+        {
+          "composite_lr": 6500.064563201937,
+          "disease_id": "OMIM:168860",
+          "disease_name": "OMIM disease 168860",
+          "omim_id": "168860",
+          "phenotype_score": 0.4360099552591326,
+          "post_test_probability": 0.4360099552591326,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 2
+        },
+        {
+          "composite_lr": 3250.0322816009684,
+          "disease_id": "OMIM:224690",
+          "disease_name": "OMIM disease 224690",
+          "omim_id": "224690",
+          "phenotype_score": 0.2787805182809675,
+          "post_test_probability": 0.2787805182809675,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 3
+        },
+        {
+          "composite_lr": 1625.0161408004842,
+          "disease_id": "OMIM:135900",
+          "disease_name": "OMIM disease 135900",
+          "omim_id": "135900",
+          "phenotype_score": 0.16196686200794175,
+          "post_test_probability": 0.16196686200794175,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 4
+        },
+        {
+          "composite_lr": 1625.0161408004842,
+          "disease_id": "OMIM:200700",
+          "disease_name": "OMIM disease 200700",
+          "omim_id": "200700",
+          "phenotype_score": 0.16196686200794175,
+          "post_test_probability": 0.16196686200794175,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 5
+        },
+        {
+          "composite_lr": 1625.0161408004842,
+          "disease_id": "OMIM:106220",
+          "disease_name": "OMIM disease 106220",
+          "omim_id": "106220",
+          "phenotype_score": 0.16196686200794175,
+          "post_test_probability": 0.16196686200794175,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 6
+        },
+        {
+          "composite_lr": 1444.4588779191074,
+          "disease_id": "OMIM:613803",
+          "disease_name": "OMIM disease 613803",
+          "omim_id": "613803",
+          "phenotype_score": 0.1466089730307187,
+          "post_test_probability": 0.1466089730307187,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 7
+        },
+        {
+          "composite_lr": 1193.8894332881544,
+          "disease_id": "OMIM:266280",
+          "disease_name": "OMIM disease 266280",
+          "omim_id": "266280",
+          "phenotype_score": 0.12433901073148565,
+          "post_test_probability": 0.12433901073148565,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 8
+        },
+        {
+          "composite_lr": 859.5127207452539,
+          "disease_id": "OMIM:617063",
+          "disease_name": "OMIM disease 617063",
+          "omim_id": "617063",
+          "phenotype_score": 0.09274470363782092,
+          "post_test_probability": 0.09274470363782092,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 9
+        },
+        {
+          "composite_lr": 435.0040363063154,
+          "disease_id": "OMIM:161200",
+          "disease_name": "OMIM disease 161200",
+          "omim_id": "161200",
+          "phenotype_score": 0.04919188485274227,
+          "post_test_probability": 0.04919188485274227,
+          "pretest_probability": 0.00011892020454275182,
+          "rank": 10
+        }
+      ],
+      "error": null,
+      "processing_time": 2398
+    }
+  ],
+  "test_info": {
+    "total_time": 75.67026209831238,
+    "test_cases": 30,
+    "timestamp": "2025-08-22 19:57:58"
+  }
+}

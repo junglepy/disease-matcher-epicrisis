@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  lirical:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: lirical-deploy:latest
+    container_name: lirical-deploy
+    ports:
+      - "8083:8083"
+    environment:
+      - LIRICAL_JAR=/app/lirical-cli-2.2.0.jar
+      - LIRICAL_DATA=/app/data
+      - PYTHONUNBUFFERED=1
+      - PORT=8083
+      - JAVA_HOME=/usr/local/openjdk-17
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8083/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          memory: 4G
+          cpus: '2.0'
+        reservations:
+          memory: 2G
+          cpus: '1.0'
+
+networks:
+  default:
+    name: lirical-deploy

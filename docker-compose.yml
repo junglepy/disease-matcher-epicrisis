@@ -1,0 +1,66 @@
+services:
+  lirical:
+    build:
+      context: ./lirical-docker-deploy
+      dockerfile: Dockerfile
+    image: lirical-deploy:latest
+    container_name: lirical-service
+    ports:
+      - "8083:8083"
+    environment:
+      - LIRICAL_JAR=/app/lirical-cli-2.2.0.jar
+      - LIRICAL_DATA=/app/data
+      - PYTHONUNBUFFERED=1
+      - PORT=8083
+      - JAVA_HOME=/usr/local/openjdk-17
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8083/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          memory: 4G
+          cpus: '2.0'
+        reservations:
+          memory: 2G
+          cpus: '1.0'
+    networks:
+      - epicrisis-network
+
+  epicrisis:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: epicrisis-service:latest
+    container_name: epicrisis-service
+    ports:
+      - "8004:8004"
+    environment:
+      - PORT=8004
+      - LOG_LEVEL=INFO
+      - LIRICAL_SERVICE_URL=http://lirical:8083
+      - RECURSIVE_ANALYSIS_ENABLED=true
+      - RECURSIVE_ITERATIONS=2
+    env_file:
+      - .env
+    volumes:
+      - ./datasets:/datasets:ro
+    depends_on:
+      - lirical
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8004/api/v1/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+    restart: unless-stopped
+    networks:
+      - epicrisis-network
+
+networks:
+  epicrisis-network:
+    driver: bridge
